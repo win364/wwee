@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <defs>
+    <mask id="cells-mask">
+      <rect width="320" height="320" fill="white"/>
+      <g fill="black">
+        <!-- 5x5 grid of cells -->
+        <rect x="10" y="10" width="60" height="60" rx="8"/>
+        <rect x="80" y="10" width="60" height="60" rx="8"/>
+        <rect x="150" y="10" width="60" height="60" rx="8"/>
+        <rect x="220" y="10" width="60" height="60" rx="8"/>
+        <rect x="290" y="10" width="20" height="60" rx="8"/>
+        
+        <rect x="10" y="80" width="60" height="60" rx="8"/>
+        <rect x="80" y="80" width="60" height="60" rx="8"/>
+        <rect x="150" y="80" width="60" height="60" rx="8"/>
+        <rect x="220" y="80" width="60" height="60" rx="8"/>
+        <rect x="290" y="80" width="20" height="60" rx="8"/>
+        
+        <rect x="10" y="150" width="60" height="60" rx="8"/>
+        <rect x="80" y="150" width="60" height="60" rx="8"/>
+        <rect x="150" y="150" width="60" height="60" rx="8"/>
+        <rect x="220" y="150" width="60" height="60" rx="8"/>
+        <rect x="290" y="150" width="20" height="60" rx="8"/>
+        
+        <rect x="10" y="220" width="60" height="60" rx="8"/>
+        <rect x="80" y="220" width="60" height="60" rx="8"/>
+        <rect x="150" y="220" width="60" height="60" rx="8"/>
+        <rect x="220" y="220" width="60" height="60" rx="8"/>
+        <rect x="290" y="220" width="20" height="60" rx="8"/>
+        
+        <rect x="10" y="290" width="60" height="20" rx="8"/>
+        <rect x="80" y="290" width="60" height="20" rx="8"/>
+        <rect x="150" y="290" width="60" height="20" rx="8"/>
+        <rect x="220" y="290" width="60" height="20" rx="8"/>
+        <rect x="290" y="290" width="20" height="20" rx="8"/>
+      </g>
+    </mask>
+  </defs>
+  <rect width="320" height="320" fill="white" mask="url(#cells-mask)"/>
+</svg>

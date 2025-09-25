@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Поле — оригинал</title>
+    <style>
+      html,body{margin:0;background:#0b1220;color:#e6edf7;font-family:system-ui,Segoe UI,Roboto,Arial}
+      .wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+      .viewport{position:relative;width:720px;height:720px;overflow:hidden;border-radius:24px;box-shadow:0 0 40px rgba(0,0,0,.6)}
+      #game{position:absolute;top:0;left:0;width:1600px;height:1200px;border:0;transform-origin:0 0;background:#0b1220}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="viewport">
+        <iframe id="game" src="/mirror"></iframe>
+      </div>
+    </div>
+    <script>
+      (function(){
+        var iframe = document.getElementById('game');
+        function focusBoard(){
+          try{
+            var doc = iframe.contentDocument; if(!doc){ setTimeout(focusBoard, 400); return; }
+            var css = '*{caret-color:transparent}\n.game-right-sidebar,.mines-footer__wrapper,header,footer,.app-header,.live-bets{display:none!important}\nbody{overflow:hidden!important;background:#0b1220!important}';
+            var st = doc.createElement('style'); st.textContent = css; doc.head.appendChild(st);
+            var board = doc.querySelector('.cells-board-wrapper') || doc.querySelector('.cells-board');
+            if(!board){ setTimeout(focusBoard, 400); return; }
+            var r = board.getBoundingClientRect();
+            var vw = 720, vh = 720;
+            var scale = Math.min(vw / r.width, vh / r.height) * 1.02;
+            iframe.style.transform = 'translate(' + (-r.left) + 'px,' + (-r.top) + 'px) scale(' + scale + ')';
+          }catch(e){ setTimeout(focusBoard, 400); }
+        }
+        iframe.addEventListener('load', function(){ setTimeout(focusBoard, 800); });
+      })();
+    </script>
+  </body>
+</html>
+
+

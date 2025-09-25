@@ -1,0 +1,113 @@
+/* Main CSS for Mines Predictor */
+:root {
+  --primary-color: #16cef0;
+  --secondary-color: #0a0f1d;
+  --accent-color: #72ddff;
+  --text-color: #ffffff;
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--secondary-color);
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.game-frame {
+  position: relative;
+  width: 340px;
+  height: 340px;
+  background: var(--secondary-color);
+  border-radius: 25px;
+  box-shadow: 0 -2px 20px rgba(42, 49, 69, 0.4), 0 4px 54px rgba(42, 49, 69, 0.2);
+  overflow: hidden;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px;
+  padding: 10px;
+  height: 100%;
+}
+
+.cell {
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.cell:hover {
+  transform: scale(1.05);
+  background: rgba(22, 206, 240, 0.1);
+}
+
+.cell.mine {
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.cell.safe {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 18px;
+  color: var(--accent-color);
+}
+
+.error {
+  color: #ff6b6b;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}

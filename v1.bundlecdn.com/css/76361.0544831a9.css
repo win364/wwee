@@ -1,0 +1,1443 @@
+.VInputCustomMessage_root_AaFyE {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #edf0f7;
+    border-radius: 8px;
+    z-index: 1
+}
+
+.VInputCustomMessage_rootMobile_E5kCK {
+    padding: 10px 0;
+    top: 0
+}
+
+.VInputCustomMessage_content_v72s4 {
+    font-size: 11px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column
+}
+
+.VInputCustomMessage_text_rzVE_ {
+    color: #070c19
+}
+
+.VInputCustomMessage_action_lggFd {
+    font-size: inherit;
+    color: #02a04c;
+    font-weight: 500;
+    cursor: pointer
+}
+
+.VInputCustomMessage_close_MS70o {
+    margin-left: 5px;
+    cursor: pointer;
+    color: #090f1e26
+}
+
+.input-box[data-v-32834eee] {
+    width: 100%
+}
+
+.label[data-v-32834eee] {
+    color: #6f767e;
+    margin-bottom: 5px
+}
+
+.control[data-v-32834eee] {
+    display: flex;
+    min-height: 36px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 0 15px;
+    transition: all .2s;
+    position: relative
+}
+
+.control.disabled[data-v-32834eee] {
+    opacity: .8
+}
+
+.control.disable-left-padding[data-v-32834eee] {
+    padding-left: 0
+}
+
+.control.disable-right-padding[data-v-32834eee] {
+    padding-right: 0
+}
+
+.control.default[data-v-32834eee] {
+    background-color: #121829
+}
+
+.control.default.focused[data-v-32834eee] {
+    border-color: #0854c3
+}
+
+.control.grey[data-v-32834eee] {
+    height: 44px;
+    background-color: #ebebeb
+}
+
+.control.grey.focused[data-v-32834eee] {
+    border-color: #4d515c
+}
+
+.control.light-grey[data-v-32834eee] {
+    background-color: #94a6cd33;
+    color: #6a7690
+}
+
+.control.white[data-v-32834eee] {
+    background-color: #fff
+}
+
+.input-container[data-v-32834eee] {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr
+}
+
+.input-container .error-text[data-v-32834eee] {
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #d53e3e;
+    font-size: 12px;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 4px 0
+}
+
+.input-container span.fieldLabel[data-v-32834eee] {
+    display: none
+}
+
+.input-container svg.statusIcon[data-v-32834eee] {
+    position: absolute;
+    top: 14px;
+    right: 0;
+    width: 16px;
+    height: 16px
+}
+
+.input[data-v-32834eee] {
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1
+}
+
+.input.default[data-v-32834eee] {
+    caret-color: #1970ef;
+    color: #fff
+}
+
+.input.grey[data-v-32834eee] {
+    height: 44px;
+    background-color: #ebebeb;
+    caret-color: #4d515c;
+    color: #20242e
+}
+
+.input.grey[data-v-32834eee]::-moz-placeholder {
+    color: #7b7b7b
+}
+
+.input.grey[data-v-32834eee]::placeholder {
+    color: #7b7b7b
+}
+
+.input.grey.has-value[data-v-32834eee] {
+    padding: 17px 16px 5px 0
+}
+
+.input.grey.has-value~span.fieldLabel[data-v-32834eee] {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 10px;
+    color: #6f767e
+}
+
+.input span.fieldLabel[data-v-32834eee] {
+    display: none
+}
+
+.input.light-grey[data-v-32834eee] {
+    caret-color: #1a88f3;
+    color: #090f1ecc;
+    font-size: 13px
+}
+
+.input.white-outline[data-v-32834eee] {
+    caret-color: #1a88f3;
+    font-size: 13px;
+    color: #090f1ecc
+}
+
+.input.error[data-v-32834eee] {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    opacity: 0;
+    position: absolute
+}
+
+.input.error[data-v-32834eee]::-moz-placeholder {
+    opacity: 0
+}
+
+.input.error[data-v-32834eee]::placeholder {
+    opacity: 0
+}
+
+.input[data-v-32834eee]::-moz-placeholder {
+    color: #6a769080;
+    font-size: 13px
+}
+
+.input[data-v-32834eee]::placeholder {
+    color: #6a769080;
+    font-size: 13px
+}
+
+.input[data-v-32834eee]::-moz-placeholder {
+    color: #6a7690
+}
+
+.input[data-v-32834eee]::placeholder {
+    color: #6a7690
+}
+
+.input[data-v-32834eee]:not(.light-grey):not(.white-outline):not(.grey):-webkit-autofill,
+.input[data-v-32834eee]:not(.light-grey):not(.white-outline):not(.grey):-webkit-autofill:hover,
+.input[data-v-32834eee]:not(.light-grey):not(.white-outline):not(.grey):-webkit-autofill:focus {
+    -webkit-text-fill-color: #fff
+}
+
+.input[type=date][data-v-32834eee]:before {
+    content: attr(placeholder);
+    color: #6a7690
+}
+
+.input[type=date][data-v-32834eee]::-webkit-date-and-time-value {
+    text-align: left
+}
+
+.input[type=date][data-v-32834eee]::-webkit-datetime-edit-fields-wrapper {
+    padding: 0
+}
+
+.input[type=date][data-v-32834eee]::-webkit-clear-button {
+    display: none
+}
+
+.input[type=date][data-v-32834eee]::-webkit-calendar-picker-indicator {
+    pointer-events: auto;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    opacity: 0
+}
+
+.input[type=date][data-v-32834eee]::-webkit-datetime-edit-day-field,
+.input[type=date][data-v-32834eee]::-webkit-datetime-edit-month-field,
+.input[type=date][data-v-32834eee]::-webkit-datetime-edit-year-field {
+    background: transparent;
+    color: currentColor;
+    padding: 0
+}
+
+.input[type=date][data-v-32834eee]::-moz-placeholder-shown {
+    opacity: 0
+}
+
+.input[type=date][data-v-32834eee]::placeholder-shown {
+    opacity: 0
+}
+
+.input[type=date][data-v-32834eee]:not(.has-value)::-webkit-datetime-edit {
+    opacity: 0
+}
+
+.control-left[data-v-32834eee],
+.control-right[data-v-32834eee] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #8c93a5;
+    font-size: 12px;
+    flex-grow: 1;
+    align-self: center;
+    margin-left: 5px
+}
+
+.control-left-icon[data-v-32834eee]:not(:first-child) {
+    margin-left: .5em
+}
+
+.control-left-icon[data-v-32834eee]:not(:last-child) {
+    margin-right: .5em
+}
+
+.icon-spinner[data-v-32834eee] {
+    animation: spinner .75s infinite linear
+}
+
+.error-dot[data-v-32834eee] {
+    color: #d53e3e;
+    font-size: 18px;
+    margin-bottom: 3px
+}
+
+.error-dot[data-v-32834eee]:not(:last-child) {
+    margin-right: 5px
+}
+
+.control-action[data-v-32834eee] {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #096dff;
+    cursor: pointer
+}
+
+.toggler-visible-password-icon-container[data-v-32834eee] {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #6a769033
+}
+
+.toggler-visible-password-icon-container.visible[data-v-32834eee] {
+    color: #6a7690cc
+}
+
+.maskExample[data-v-32834eee] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 36px;
+    vertical-align: top;
+    pointer-events: none;
+    color: #6a7690;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    font-size: 14px
+}
+
+.maskExample.grey[data-v-32834eee] {
+    height: 44px
+}
+
+.maskExample.grey.has-value[data-v-32834eee] {
+    padding: 17px 16px 5px 0
+}
+
+.maskExample.light-grey[data-v-32834eee],
+.maskExample.white-outline[data-v-32834eee] {
+    font-size: 13px
+}
+
+.Arrows_arrows_aUqtS {
+    display: inline-flex
+}
+
+.Arrows_arrow_dUqnP {
+    color: #1218294d;
+    background-color: #edf0f7;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    transition: background-color .5s
+}
+
+.Arrows_arrow_dUqnP:hover,
+.Arrows_arrow_dUqnP:focus {
+    background-color: #cad3e7
+}
+
+.Arrows_arrow_dUqnP:first-child {
+    margin-right: 5px
+}
+
+.Arrows_arrow_dUqnP[disabled] {
+    opacity: .7
+}
+
+.Carousel_container_GSuMy {
+    overflow: hidden;
+    position: relative;
+    --carousel__offset: 0;
+    --carousel__margin: 5px
+}
+
+.Carousel_containerInner_FnO7P {
+    display: flex;
+    flex-flow: row nowrap;
+    width: var(--carousel__inner-container-width);
+    transform: translate(var(--carousel__offset));
+    cursor: pointer
+}
+
+.Carousel_slide_ehUaR {
+    flex: 0 0 auto;
+    max-width: var(--carousel__max-slide-width);
+    pointer-events: none
+}
+
+.Carousel_slide_ehUaR:not(:last-child) {
+    margin-right: var(--carousel__margin)
+}
+
+.Dots_dots_fnWuv {
+    display: inline-flex
+}
+
+.Dots_dot_a8eOZ {
+    height: var(--dots__size);
+    width: var(--dots__size);
+    border-radius: 50%;
+    background-color: #edf0f7;
+    margin-right: 5px
+}
+
+.Dots_dot_a8eOZ:last-child {
+    margin-right: 0
+}
+
+.Dots_activeDot_HoYuF {
+    background-image: linear-gradient(145deg, #0095ff -36%, #0855c4 150%)
+}
+
+.DepositInstructionDesktop_container__TRFV {
+    width: 100%
+}
+
+.DepositInstructionDesktop_header_WxfCM {
+    display: flex;
+    justify-content: space-between
+}
+
+.DepositInstructionDesktop_title_EIVbZ {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    margin-bottom: 15px
+}
+
+.DepositInstructionDesktop_slide_Ua7yQ {
+    background-color: #edf0f7;
+    padding: 15px;
+    border-radius: 13px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center
+}
+
+.DepositInstructionDesktop_slideTitle_flDvc {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #070c19;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.DepositInstructionDesktop_slideTitle_flDvc:before {
+    content: attr(data-index);
+    margin-right: 1ch;
+    color: #096dff
+}
+
+.DepositInstructionDesktop_slideDescription_QvTWD {
+    font-size: 13px;
+    line-height: 16px;
+    color: #070c1980;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.DepositInstructionDesktop_slideImage_rJJSg {
+    border-radius: 14px;
+    width: 100%;
+    box-shadow: 0 5.6px 17px -3px #18274b14, 0 4.2px 8.5px -4px #18274b1f
+}
+
+.DepositInstructionDesktop_imageWrapper_CXEt_ {
+    flex-grow: 1;
+    border-radius: 14px;
+    display: flex;
+    align-items: flex-end
+}
+
+.DepositInstructionDesktop_dotsWrapper_bWYBz {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.DepositInstructionDesktop_footer_Q3xUi {
+    display: flex
+}
+
+.DepositInstructionDesktop_linkButton_zrf7t {
+    width: 100%
+}
+
+.DepositInstructionDesktop_backButton_S3Dwr {
+    margin-right: 10px;
+    flex-shrink: 0
+}
+
+.DepositCustomPage_text_LB0LW {
+    font-size: 12px;
+    line-height: 16px;
+    color: #070c19;
+    margin: 5px 0 25px;
+    white-space: pre-line
+}
+
+.DepositCustomPage_button_jDKqW {
+    width: 100%;
+    min-height: 45px;
+    font-weight: 500;
+    font-size: 16px
+}
+
+.DepositMerchantIndiaDetails_information_O2mdO {
+    color: #070c19;
+    background: rgba(151, 174, 225, .2);
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 10px
+}
+
+.DepositMerchantIndiaDetails_informationTitle_tkdc3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px
+}
+
+.DepositMerchantIndiaDetails_informationTitle_tkdc3 .DepositMerchantIndiaDetails_blue_ozmPF {
+    color: #1a88f3
+}
+
+.DepositMerchantIndiaDetails_informationCards_XRfMM {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px
+}
+
+.DepositMerchantIndiaDetails_informationCard_cyfY9 {
+    background: #fff;
+    box-shadow: 0 7.36842px 18.4211px #090f1e1a;
+    border-radius: 10px;
+    padding: 8px 15px;
+    flex: 1
+}
+
+.DepositMerchantIndiaDetails_informationCardQr_uZ5ny {
+    display: grid;
+    grid-column: 1/span 2;
+    grid-column-gap: 8px;
+    grid-template-columns: 88px 1fr;
+    grid-template-rows: auto 1fr;
+    padding-left: 8px
+}
+
+.DepositMerchantIndiaDetails_informationCardTop_a3WtN {
+    display: flex;
+    justify-content: space-between
+}
+
+.DepositMerchantIndiaDetails_copy_GVuxC {
+    background: rgba(180, 187, 199, .2);
+    box-shadow: 0 4px 10px #0000001a;
+    border-radius: 6px;
+    flex: none;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.DepositMerchantIndiaDetails_copyIcon_gJ9Tt {
+    width: 16px;
+    height: 16px
+}
+
+.DepositMerchantIndiaDetails_qr_G0wIq {
+    grid-row: 1/span 2
+}
+
+.DepositMerchantIndiaDetails_informationName_DkZyH {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.DepositMerchantIndiaDetails_informationValue_N5Y4_ {
+    font-size: 13px;
+    line-height: 16px;
+    opacity: .5;
+    margin-top: 4px;
+    word-break: break-word
+}
+
+.DepositMerchantIndia_container_mi7lw {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.DepositMerchantIndia_input_sfN7q:not(:last-child) {
+    margin-bottom: 10px
+}
+
+.DepositMerchantIndia_videoInstruction_xX9ur {
+    margin-top: 15px
+}
+
+.DepositMerchantIndia_controls_mCuLQ,
+.DepositMerchantIndia_buttons_Vys5O {
+    display: flex;
+    margin-top: auto
+}
+
+.DepositMerchantIndia_cancelButton_Z7Ii9 {
+    display: flex;
+    margin-right: 5px;
+    width: 45px;
+    height: 45px
+}
+
+.DepositMerchantIndia_button_aAOE2 {
+    height: 45px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, .1)
+}
+
+.DepositMerchantIndia_buttonStepOne_qo4Bq {
+    margin-top: auto
+}
+
+.DepositMerchantIndia_buttonStepTwo_UfRhl,
+.DepositMerchantIndia_buttonStepThree_wbTqN {
+    margin-left: 12px
+}
+
+.DepositMerchantIndia_buttonBack_ck9XI {
+    flex-shrink: 0
+}
+
+.DepositMerchantIndia_buttonBackIcon_Klhb0 {
+    color: #5c72a3
+}
+
+.DepositMerchantIndia_questionDropdown_LtcAn {
+    margin-right: 30px
+}
+
+.DepositMerchantIndia_questionIcon_pZbZc {
+    width: 15px;
+    height: 15px;
+    color: #5c72a380
+}
+
+.DepositMerchantIndia_instructionPicture_EDMqY {
+    min-width: 150px;
+    display: block;
+    box-shadow: 0 0 8px -2px #18274b14, 0 0 18px -2px #18274b14;
+    border-radius: 8px;
+    overflow: hidden
+}
+
+.DepositMerchantIndia_subtitle_PHIdo {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    color: #070c19
+}
+
+.DepositMerchantIndia_subtitle_PHIdo .DepositMerchantIndia_blue_r9Pmq {
+    color: #1a88f3
+}
+
+.DepositMerchantIndia_headerHint_DJH5b {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #070c19;
+    margin-bottom: 15px;
+    white-space: pre-line
+}
+
+.DepositMerchantIndia_annotation_bQ6MV {
+    margin-bottom: 15px
+}
+
+.DepositPaymentsGroup_container_r5Vnl {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-grow: 1
+}
+
+.DepositPaymentsGroup_containerHeight_IJDDA {
+    max-height: 100%
+}
+
+.DepositPaymentsGroup_list_qmjql {
+    display: grid;
+    align-content: flex-start;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    flex-grow: 1;
+    padding: 8px 0 10px
+}
+
+.DepositPaymentsGroup_list_qmjql .DepositPaymentsGroup_tile_b0P3T {
+    background-color: #edf0f7;
+    margin: 0
+}
+
+.DepositPaymentsGroup_notFound_fPr6U {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 13px;
+    line-height: 16px;
+    color: #5c72a3cc
+}
+
+.DepositPaymentsGroup_input_Y9w_D {
+    margin-bottom: 7px
+}
+
+.DepositPaymentsGroup_button_i0Kll {
+    min-height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 15px
+}
+
+.DepositPaymentsGroup_limitDeposit_KQARS {
+    display: flex;
+    justify-content: space-between;
+    color: #6a7690;
+    margin-top: 10px
+}
+
+.DepositPaymentsGroup_field_cyIK6 {
+    margin-bottom: 15px
+}
+
+.DepositPaymentsGroup_form_JCmTR {
+    padding-top: 15px
+}
+
+.DepositPaymentsGroup_title_Ov6aL {
+    color: #070c19;
+    font-size: 12px;
+    line-height: 1.33;
+    margin-bottom: 15px
+}
+
+.DepositPaymentsGroup_annotation_TzX0s,
+.DepositPaymentsGroup_cryptoInstruction_GOJh_ {
+    margin-bottom: 15px
+}
+
+.DepositMerchantEazepeData_subtitle_ryb1M {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #070c19
+}
+
+.DepositMerchantEazepeData_blue_CA5Cv {
+    margin-right: 8px;
+    background: linear-gradient(107.15deg, #0095ff 0%, #0855c4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.DepositMerchantEazepeData_headerHint_Z2iBq {
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    white-space: pre-line;
+    color: #070c19
+}
+
+.DepositMerchantEazepeData_input_mhPCw:not(:last-child) {
+    margin-bottom: 10px
+}
+
+.DepositMerchantEazepeData_videoInstruction_iqZoi {
+    margin-top: 15px
+}
+
+.DepositMerchantEazepeData_button_aqpsn {
+    width: 100%;
+    height: 45px !important;
+    margin-top: 15px;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 19px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, .1)
+}
+
+.DepositMerchantEazepeData_annotation_LyAAY {
+    margin-top: 15px
+}
+
+.modal-payments-aside[data-v-066f960e] {
+    min-width: 200px;
+    width: 290px;
+    padding: 20px 0 25px;
+    background-color: #edf0f7;
+    display: flex;
+    flex-direction: column
+}
+
+.withdrawal-management[data-v-066f960e] {
+    padding: 0 20px
+}
+
+.deposit-free-spin-enter-active[data-v-066f960e],
+.deposit-free-spin-leave-active[data-v-066f960e] {
+    transition: all .2s ease
+}
+
+.deposit-free-spin-enter-from[data-v-066f960e],
+.deposit-free-spin-leave-to[data-v-066f960e] {
+    transform: translateY(-100%);
+    opacity: 0
+}
+
+.payments-country-select[data-v-066f960e] {
+    margin-bottom: 20px
+}
+
+.payments-container[data-v-066f960e] {
+    position: relative;
+    flex-grow: 1;
+    overflow-y: auto;
+    scrollbar-width: none
+}
+
+.payments-container[data-v-066f960e]::-moz-scrollbar {
+    display: none
+}
+
+.payments-container[data-v-066f960e]::-webkit-scrollbar {
+    display: none
+}
+
+.payments[data-v-066f960e] {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px 20px 0
+}
+
+.payment[data-v-066f960e] {
+    margin-bottom: 10px;
+    max-width: calc(50% - 5px);
+    margin-top: 0;
+    min-height: 67px
+}
+
+.payment[data-v-066f960e]:nth-child(2n) {
+    margin-left: 10px
+}
+
+.payments-title[data-v-066f960e] {
+    padding: 0 20px;
+    font-size: 11px;
+    color: #6a7690;
+    margin-bottom: 10px
+}
+
+.loader[data-v-066f960e] {
+    min-height: auto;
+    height: 100%
+}
+
+.modal-body .panel-header[data-v-73acdce5],
+.modal-body .panel-block[data-v-73acdce5] {
+    padding: 1rem 1.25rem
+}
+
+.modal-body .panel-block[data-v-73acdce5] {
+    display: flex;
+    flex: 1;
+    flex-direction: column
+}
+
+.modal-body_mobile[data-v-73acdce5] {
+    display: flex;
+    flex-direction: column;
+    z-index: 3
+}
+
+.close[data-v-73acdce5] {
+    cursor: pointer;
+    font-size: 13px
+}
+
+.hint[data-v-73acdce5] {
+    color: #8596ae;
+    font-size: .9rem
+}
+
+.modal-container[data-v-73acdce5] {
+    display: grid;
+    grid-template-areas: "banner" "main" "footer";
+    grid-template-columns: min-content;
+    align-self: center;
+    justify-self: center
+}
+
+.modal-container.body-without-padding .modal-content__body[data-v-73acdce5] {
+    padding: 0
+}
+
+.modal-container.without-additional-footer[data-v-73acdce5] {
+    grid-template-areas: "main"
+}
+
+.modal-container.modal-container-backdrop[data-v-73acdce5] {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: none
+}
+
+.modal-container.body-transparent .modal-container-wrapper[data-v-73acdce5] {
+    background-color: transparent
+}
+
+.modal-container-wrapper[data-v-73acdce5] {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    z-index: 3;
+    grid-area: main
+}
+
+.modal-container-wrapper.has-additional-block[data-v-73acdce5] {
+    border-radius: 15px 15px 8px 8px
+}
+
+.modal-container-wrapper[data-v-73acdce5]:not(.not-scroll) {
+    max-height: 680px;
+    overflow: hidden
+}
+
+.modal-container-wrapper:not(.not-scroll) .modal-content .modal-content__container[data-v-73acdce5] {
+    overflow: auto
+}
+
+.modal-container-wrapper[data-v-73acdce5]:not(.dynamic-height) {
+    height: 680px;
+    height: var(--white-modal-height, 680px)
+}
+
+.modal-container-wrapper.dynamic-height[data-v-73acdce5] {
+    max-height: none
+}
+
+.modal-container-wrapper.no-content .modal-content__body[data-v-73acdce5] {
+    display: none
+}
+
+.modal-container-wrapper.no-content .modal-content__footer[data-v-73acdce5] {
+    padding-top: 10px
+}
+
+.modal-container-wrapper.not-scroll-body .modal-content__container[data-v-73acdce5] {
+    overflow: hidden
+}
+
+.modal-container-wrapper.not-scroll-body .modal-content__body[data-v-73acdce5] {
+    overflow: auto
+}
+
+.modal-container-wrapper.overflow-visible .modal-content__body[data-v-73acdce5] {
+    overflow: visible
+}
+
+.modal-container-wrapper.not-user-select[data-v-73acdce5] {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.modal-additional-block[data-v-73acdce5] {
+    margin-top: 3px;
+    border-radius: 8px 8px 15px 15px;
+    background-color: #fff;
+    padding: 2px 0;
+    overflow: hidden
+}
+
+.modal-signature[data-v-73acdce5] {
+    margin-top: 15px;
+    position: relative
+}
+
+.modal-content[data-v-73acdce5] {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 390px;
+    width: var(--white-modal-width, 390px)
+}
+
+.modal-content_mobile[data-v-73acdce5] {
+    background-color: #141b2e;
+    border-radius: 5px;
+    margin-bottom: -1px;
+    padding: 9px;
+    width: 300px
+}
+
+.modal-content__header[data-v-73acdce5] {
+    padding: 20px 20px 10px;
+    z-index: 2
+}
+
+.modal-content__header__row[data-v-73acdce5] {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.modal-content__header__row[data-v-73acdce5]:not(:first-child) {
+    margin-top: 10px
+}
+
+.modal-content__header__row__account-number[data-v-73acdce5],
+.modal-content__header__row__cell[data-v-73acdce5] {
+    align-items: flex-start;
+    font-size: 20px;
+    display: flex
+}
+
+.modal-content__header__row__account-number__cell[data-v-73acdce5],
+.modal-content__header__row__cell__cell[data-v-73acdce5] {
+    font-size: 11px;
+    color: #0006;
+    white-space: nowrap;
+    align-self: center
+}
+
+.modal-content__header__row__account-number__title[data-v-73acdce5],
+.modal-content__header__row__cell__title[data-v-73acdce5] {
+    font-size: 20px;
+    font-family: -apple-system, SF Pro Display, -apple-system, SF Pro Text, sans-serif;
+    font-weight: 700;
+    letter-spacing: .3px;
+    color: #090f1e
+}
+
+.modal-content__header__row__account-number__title.pre-wrap[data-v-73acdce5],
+.modal-content__header__row__cell__title.pre-wrap[data-v-73acdce5] {
+    white-space: pre-wrap
+}
+
+.modal-content__header__row__account-number__title.pre-line[data-v-73acdce5],
+.modal-content__header__row__cell__title.pre-line[data-v-73acdce5] {
+    white-space: pre-line
+}
+
+.modal-content__header__row__account-number__title.size_small[data-v-73acdce5],
+.modal-content__header__row__cell__title.size_small[data-v-73acdce5] {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -.2px
+}
+
+.modal-content__header__row__account-number__title.size_medium[data-v-73acdce5],
+.modal-content__header__row__cell__title.size_medium[data-v-73acdce5] {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -.4px
+}
+
+.modal-content__header__row__account-number__title.size_big[data-v-73acdce5],
+.modal-content__header__row__cell__title.size_big[data-v-73acdce5] {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -.6px;
+    font-weight: 600
+}
+
+.modal-content__header__row__account-number__overlay[data-v-73acdce5],
+.modal-content__header__row__cell__overlay[data-v-73acdce5] {
+    cursor: pointer;
+    align-self: flex-end;
+    margin-left: 9px;
+    background-color: #edf0f7;
+    width: 1em;
+    padding: 7px;
+    border-radius: 6px
+}
+
+.modal-content__header__row__account-number__sub-title[data-v-73acdce5],
+.modal-content__header__row__cell__sub-title[data-v-73acdce5] {
+    font-size: 12px;
+    line-height: 1.29;
+    color: #070c19;
+    white-space: pre-line
+}
+
+.modal-content__header__row__account-number__sub-title.size_medium[data-v-73acdce5],
+.modal-content__header__row__cell__sub-title.size_medium[data-v-73acdce5] {
+    font-size: 14px;
+    line-height: 20px
+}
+
+.modal-content__header__row .modal-button-login[data-v-73acdce5] {
+    color: #8d9cc4;
+    margin: 8px 11px 0 auto
+}
+
+.modal-content__container[data-v-73acdce5] {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1
+}
+
+.modal-content__body[data-v-73acdce5] {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 20px 20px;
+    height: 100%;
+    overflow: auto
+}
+
+.modal-content__footer[data-v-73acdce5] {
+    background-color: transparent;
+    margin-top: auto;
+    padding: 0 20px 20px
+}
+
+.modal-banner[data-v-73acdce5] {
+    grid-area: banner
+}
+
+.modal-footer[data-v-73acdce5] {
+    grid-area: footer
+}
+
+.customBackdrop[data-v-73acdce5] {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2
+}
+
+.licence[data-v-0b1d11cd] {
+    display: flex;
+    flex-direction: column
+}
+
+.licence.white-theme .licence__top .licence__top__one-win-info[data-v-0b1d11cd],
+.licence.white-theme .licence__main[data-v-0b1d11cd] {
+    color: #6a7690a6
+}
+
+.licence__top[data-v-0b1d11cd] {
+    display: flex;
+    align-items: center
+}
+
+.licence__top__one-win-info-container[data-v-0b1d11cd] {
+    display: flex;
+    align-items: flex-end
+}
+
+.licence__top__one-win-info[data-v-0b1d11cd] {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: #53617a
+}
+
+.licence__top__apg[data-v-0b1d11cd] {
+    max-width: 28px;
+    max-height: 28px;
+    margin-right: 30px
+}
+
+.licence__top__button-more[data-v-0b1d11cd] {
+    width: 18px;
+    height: 18px;
+    background-color: #edf0f7;
+    border-radius: 100px;
+    margin-left: 11px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity .1s
+}
+
+.licence__top__button-more.opened[data-v-0b1d11cd]:after {
+    transform: rotate(225deg) translate(-1px, -1px)
+}
+
+.licence__top__button-more[data-v-0b1d11cd]:hover {
+    opacity: .8
+}
+
+.licence__top__button-more[data-v-0b1d11cd]:after {
+    position: absolute;
+    content: "";
+    width: 5.66px;
+    height: 5.66px;
+    border-right: 2px solid rgba(18, 24, 41, .3);
+    border-bottom: 2px solid rgba(18, 24, 41, .3);
+    transform: rotate(45deg) translate(-1px, -1px);
+    transition: transform .3s ease-in-out
+}
+
+.licence__main[data-v-0b1d11cd] {
+    font-size: 10px;
+    color: #53617a;
+    letter-spacing: 0
+}
+
+.licence__main__row[data-v-0b1d11cd] {
+    padding-top: 10px
+}
+
+[data-v-0b1d11cd] .licence__main a {
+    text-decoration: underline
+}
+
+.slide-down-enter-active[data-v-0b1d11cd],
+.slide-down-leave-active[data-v-0b1d11cd] {
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out
+}
+
+.slide-down-enter-to[data-v-0b1d11cd],
+.slide-down-leave-from[data-v-0b1d11cd] {
+    max-height: 100px;
+    overflow: hidden
+}
+
+.slide-down-enter-from[data-v-0b1d11cd],
+.slide-down-leave-to[data-v-0b1d11cd] {
+    overflow: hidden;
+    max-height: 0
+}
+
+.DepositModal_annotation_Yiu7W {
+    margin-bottom: 15px
+}
+
+.DepositModal_redirectButtonWrapper_lwa4o {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    justify-content: center;
+    width: 100%
+}
+
+.DepositModal_redirectButtonWrapper_lwa4o .DepositModal_redirectButtonCaption_oTKIC {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.DepositModal_headerHint_u_Io_ {
+    color: #070c19;
+    font-size: 12px;
+    line-height: 1.33;
+    margin-bottom: 15px;
+    white-space: pre-line;
+    width: 100%
+}
+
+.DepositModal_cardTypeSelect_HKyP4 {
+    margin-bottom: 15px
+}
+
+.DepositModal_form_Pyuau,
+.DepositModal_form_Pyuau .DepositModal_formDefault_y3jtZ {
+    width: 100%
+}
+
+.DepositModal_form_Pyuau .DepositModal_formDefault_y3jtZ>*:not(:last-child) {
+    margin-bottom: 10px
+}
+
+.DepositModal_form_Pyuau .DepositModal_formDefault_y3jtZ>.DepositModal_limitDeposit_LMIj5 {
+    color: #6f767e;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px
+}
+
+.DepositModal_form_Pyuau .DepositModal_formDefault_y3jtZ .DepositModal_instructionButton_n2Hbd {
+    align-items: center;
+    background-color: alpha(#97aee1, .11);
+    border-radius: 12px;
+    color: #5c72a3;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    padding: 10px;
+    width: 100%
+}
+
+.DepositModal_form_Pyuau .DepositModal_formDefault_y3jtZ .DepositModal_instructionButton_n2Hbd span {
+    margin-right: 1ch
+}
+
+.DepositModal_form_Pyuau .DepositModal_formDefault_y3jtZ .DepositModal_sendButton_k1BfK {
+    background-image: linear-gradient(77deg, #31bc69 -8%, #089e4e 93%);
+    border-radius: 10px;
+    box-shadow: 0 6px 18px 0 alpha(#0ea151, .3);
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    margin-top: 15px;
+    width: 100%
+}
+
+.DepositModal_form_Pyuau .DepositModal_formDefault_y3jtZ .DepositModal_copyright_idA2_,
+.DepositModal_detailingButton_q_0c9 {
+    margin-top: 15px
+}
+
+.DepositModal_instruction_dp4YU {
+    color: #070c19;
+    line-height: 1.23;
+    word-break: break-word
+}
+
+.DepositModal_instruction_dp4YU ul,
+.DepositModal_instruction_dp4YU ol {
+    margin: 0;
+    padding: 0 0 0 20px
+}
+
+.DepositModal_loader_AsjW0 {
+    min-height: auto !important
+}
+
+.DepositModal_loader_AsjW0 {
+    height: 100%
+}
+
+.DepositModal_resetRequiredDataButton_l49bT {
+    height: 45px;
+    margin-bottom: 20px;
+    width: 45px
+}
+
+.DepositModal_resetRequiredDataButton_l49bT svg {
+    rotate: 90deg
+}
+
+.DepositModal_banksGroup_GFWoE {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-height: 100%
+}
+
+.DepositModal_buttonsBanksGroup_Ub9W3 {
+    display: flex;
+    margin-top: 15px
+}
+
+.DepositModal_buttonBanksGroup_h_P89 {
+    flex: auto;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 45px
+}
+
+.DepositModal_backButton_N5Nmr {
+    height: 45px;
+    margin-right: 15px;
+    width: 45px
+}
+
+.DepositModal_backButtonIcon_PrRGc {
+    color: #6a7690
+}
+
+.DepositModal_promoBannerIPL_q3ZyT {
+    margin-bottom: 15px;
+    margin-top: 3px
+}
+
+.DepositModal_inputAmount_jGj1l .required {
+    top: 22px
+}

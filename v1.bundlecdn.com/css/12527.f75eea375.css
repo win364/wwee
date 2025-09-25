@@ -1,0 +1,3495 @@
+.BaseBankCard_root_r394y {
+    border-radius: 14px;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0)
+}
+
+@media screen and (min-width:768px) {
+    .BaseBankCard_root_r394y {
+        padding: 20px
+    }
+}
+
+.BaseBankCard_bank_jSuYw {
+    height: 25px
+}
+
+.BaseBankCard_row_ZtzmE {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 30px;
+    margin-bottom: 15px;
+    align-items: center
+}
+
+.BankCardInput_popper_LJ4ZV {
+    width: 100%
+}
+
+.BankCardInput_inputContainer_V9ISj {
+    position: relative
+}
+
+.BankCardInput_input_gxFZe {
+    background-color: #fff3;
+    box-shadow: 0 4px 10px #0000001a;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #fff;
+    height: 30px;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    width: 100%;
+    transition: background-color .5s;
+    -moz-appearance: textfield
+}
+
+.BankCardInput_input_gxFZe::-webkit-outer-spin-button,
+.BankCardInput_input_gxFZe::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.BankCardInput_input_gxFZe::-moz-placeholder {
+    color: #ffffff80
+}
+
+.BankCardInput_input_gxFZe::placeholder {
+    color: #ffffff80
+}
+
+.BankCardInput_input_gxFZe.BankCardInput_showAction_jw2AY:-moz-placeholder-shown+.BankCardInput_inputClear_LS2zp {
+    display: none
+}
+
+.BankCardInput_input_gxFZe.BankCardInput_showAction_jw2AY:placeholder-shown+.BankCardInput_inputClear_LS2zp {
+    display: none
+}
+
+.BankCardInput_input_gxFZe:focus {
+    background-color: #fff6
+}
+
+.BankCardInput_input_gxFZe:not(:focus)+.BankCardInput_error_u3FFC {
+    display: flex
+}
+
+.BankCardInput_input_gxFZe:not(:focus).BankCardInput_inputError__9ZqN {
+    border-color: #fff
+}
+
+.BankCardInput_inputClear_LS2zp {
+    display: flex;
+    position: absolute;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+    background-color: #fff3;
+    opacity: .6;
+    align-items: center;
+    justify-content: center;
+    right: 3px;
+    top: 3px;
+    cursor: pointer
+}
+
+.BankCardInput_error_u3FFC {
+    display: none;
+    position: absolute;
+    bottom: -14px;
+    font-size: 9px;
+    line-height: 13px;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    justify-content: var(--bank-card__error-placement)
+}
+
+.BankCardInput_errorLong_l3FhR {
+    position: static
+}
+
+.BankCardInput_errorLong_l3FhR .BankCardInput_errorIcon_j_iBD {
+    display: none
+}
+
+@media screen and (min-width:375px) {
+    .BankCardInput_errorLong_l3FhR {
+        position: absolute
+    }
+    .BankCardInput_errorLong_l3FhR .BankCardInput_errorIcon_j_iBD {
+        display: block
+    }
+}
+
+.BankCardInput_errorText_HFReB {
+    text-align: right
+}
+
+@media screen and (min-width:375px) {
+    .BankCardInput_errorText_HFReB {
+        margin-right: 1ch;
+        white-space: nowrap
+    }
+}
+
+.BankCard_mobile_nAWhf .BankCard_date_xZMvW {
+    width: 53px
+}
+
+.BankCard_mobile_nAWhf .BankCard_cvv_TS98h {
+    width: 57px
+}
+
+.BankCard_input_CYdzr {
+    width: 100%
+}
+
+.BankCard_label_j92MM {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-bottom: 5px;
+    color: #ffffff4d
+}
+
+@media screen and (min-width:480px) {
+    .BankCard_label_j92MM {
+        white-space: nowrap
+    }
+}
+
+.BankCard_separator_ZdU01 {
+    margin: 0 4px;
+    opacity: .3
+}
+
+.BankCard_dateWrapper_OfsEK {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between
+}
+
+.BankCard_dateWrapper_OfsEK .BankCard_date_xZMvW {
+    width: 42px;
+    text-align: center
+}
+
+.BankCard_row_kgHII {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative
+}
+
+.BankCard_row_kgHII>*:not(:last-child) {
+    margin-right: 5px
+}
+
+.BankCard_row_kgHII:not(:last-child) {
+    margin-bottom: 15px
+}
+
+.BankCard_row_kgHII .BankCard_cvv_TS98h {
+    min-width: 48px;
+    max-width: 48px;
+    text-align: center;
+    margin-left: auto
+}
+
+.BankCard_walletOnly_NnfOC {
+    min-height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+
+.BankCard_textRight_lptxK {
+    text-align: right
+}
+
+.BillingVideoInstruction_root_UAa4f {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.BillingVideoInstruction_text_zh9wy {
+    color: #6f767e;
+    font-size: 14px;
+    line-height: 20px
+}
+
+.BillingVideoInstruction_button_oYIUz {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 5px;
+    height: 40px;
+    justify-content: center;
+    line-height: 20px;
+    width: 100%
+}
+
+.BillingVideoInstruction_rootCrypto_rFKmf {
+    width: 100%
+}
+
+.BillingVideoInstruction_rootCrypto_rFKmf .BillingVideoInstruction_button_oYIUz {
+    background-color: #fff;
+    border: 1px solid #0033AD
+}
+
+.CardTypeSelect_header_xmHGK {
+    color: #070c19;
+    text-align: center;
+    margin-bottom: 21px;
+    font-size: 12px;
+    font-weight: 500
+}
+
+.CardTypeSelect_payments_wgIkv {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr))
+}
+
+.CardTypeSelect_payments_wgIkv .CardTypeSelect_payment_IpJBL {
+    background-color: #edf0f7;
+    margin: 0
+}
+
+.CardTypeSelect_paymentsGrid_ql6xa {
+    grid-template-columns: 1fr 1fr
+}
+
+.CardTypeSelect_paymentWrapper_EikRV {
+    position: relative;
+    cursor: pointer
+}
+
+.CardTypeSelect_checkMark_I2eEN {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none
+}
+
+.CardTypeSelect_checkIcon_P0wMg {
+    margin-left: 1px;
+    color: #085dcc
+}
+
+.CardTypeSelect_mobile_swB0Y .CardTypeSelect_header_xmHGK {
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 11px;
+    color: #090f1e
+}
+
+.TintModal_overlay_X1V_U {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100vw;
+    height: 100vh
+}
+
+.TintModal_content_A5QED {
+    position: fixed;
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    box-shadow: 0 0 0 55000px #00000080
+}
+
+.TintModal_hidden_dsijd {
+    visibility: hidden
+}
+
+.TintModal_modal_UUP6v {
+    position: relative;
+    padding: 5px 5px 5px 8px
+}
+
+.TintModal_modal_UUP6v:before {
+    content: "";
+    display: block;
+    background-color: #1a88f3;
+    position: absolute;
+    width: 3px;
+    height: calc(100% - 10px);
+    left: -10px;
+    top: 5px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px
+}
+
+.TintModal_modalTitle_T9W83 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 5px
+}
+
+.TintModal_modalText_S1lYK {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 15px
+}
+
+.TintModal_pulse_cAn5w {
+    animation: 1.25s TintModal_pulse_cAn5w ease-in-out;
+    animation-iteration-count: 5
+}
+
+.TintModal_noEvents_R_EJL {
+    pointer-events: none
+}
+
+@keyframes TintModal_pulse_cAn5w {
+    0% {
+        transform: scale(1)
+    }
+    25% {
+        transform: scale(1.015)
+    }
+    50% {
+        transform: scale(1)
+    }
+    75% {
+        transform: scale(1.015)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.LoadingState_root_UsOYC {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative
+}
+
+.LoadingState_loader_v6tnH {
+    height: 30px;
+    margin: 0 auto 13px;
+    width: 30px
+}
+
+.LoadingState_title_RBee8 {
+    color: var(--color-n900);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.4px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    text-align: center
+}
+
+.LoadingState_subtitle_ZFrJX {
+    color: var(--color-n300);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    white-space: pre-wrap
+}
+
+.LoadingState_paymentInfo_Oy9WN {
+    margin-top: 15px;
+    width: 394px
+}
+
+.LoadingState_paymentInfoMobile_W7kcU {
+    margin-top: 15px
+}
+
+.DepositStatus_root_guh_t {
+    display: flex;
+    height: 100%;
+    width: 100%
+}
+
+.DepositStatus_paymentStatus_tn6g8 {
+    margin: auto;
+    width: 320px
+}
+
+.DepositTimer_root_CMj44 {
+    display: grid;
+    grid-template-areas: "loader label" "loader time";
+    grid-template-columns: 30px auto;
+    -moz-column-gap: 5px;
+    column-gap: 5px
+}
+
+@media (min-width:768px) {
+    .DepositTimer_root_CMj44 {
+        -moz-column-gap: 10px;
+        column-gap: 10px
+    }
+}
+
+.DepositTimer_loader_tCFMT {
+    grid-area: loader
+}
+
+.DepositTimer_loader_tCFMT>svg {
+    height: 2em
+}
+
+.DepositTimer_icon_lX4QA {
+    width: 30px;
+    height: 30px
+}
+
+.DepositTimer_label_AlZUI {
+    grid-area: label;
+    font-size: 11px;
+    line-height: 12px;
+    color: #070c19;
+    opacity: .5;
+    white-space: nowrap
+}
+
+@media (min-width:768px) {
+    .DepositTimer_label_AlZUI {
+        font-size: 10px
+    }
+}
+
+.DepositTimer_time_XuYS7 {
+    grid-area: time;
+    color: #090f1e;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+    white-space: nowrap
+}
+
+@media (min-width:768px) {
+    .DepositTimer_time_XuYS7 {
+        font-size: 13px
+    }
+}
+
+.DepositHostToHost_instruction_SMhND {
+    color: #090f1e;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 15px
+}
+
+.DepositHostToHost_card_FkHLr {
+    background-color: #f3f5f9;
+    border: 2px solid rgba(9, 15, 30, .1);
+    border-radius: 15px;
+    color: #0e1011;
+    margin-bottom: 15px;
+    padding: 15px
+}
+
+.DepositHostToHost_notice_oYDdJ {
+    background-color: #fff;
+    border: 1px solid rgba(9, 15, 30, .1);
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px;
+    text-shadow: 0 1px 3px 0 rgba(9, 15, 30, .2);
+    white-space: pre-wrap
+}
+
+.DepositHostToHost_label_Yx_6m {
+    color: #0e1011;
+    font-size: 11px;
+    grid-area: label;
+    line-height: 11px;
+    margin-bottom: 3px
+}
+
+.DepositHostToHost_value_x0XWN {
+    color: #0e1011;
+    font-size: 13px;
+    font-weight: 700;
+    grid-area: value;
+    line-height: 20px
+}
+
+@media (min-width: 768.02px) {
+    .DepositHostToHost_value_x0XWN {
+        font-size: 16px
+    }
+}
+
+.DepositHostToHost_speiMexico_bW9VI {
+    background-color: #303992;
+    border: 2px solid #4a54b2;
+    color: #fff
+}
+
+.DepositHostToHost_speiMexico_bW9VI .DepositHostToHost_notice_oYDdJ {
+    background-color: #272e74;
+    border: 1px solid rgba(9, 15, 30, .1)
+}
+
+.DepositHostToHost_speiMexico_bW9VI .DepositHostToHost_label_Yx_6m {
+    color: #fffc
+}
+
+.DepositHostToHost_speiMexico_bW9VI .DepositHostToHost_value_x0XWN {
+    color: #fff
+}
+
+.DepositHostToHost_nigerianVirtualAccounts_kanrA {
+    background-color: #97aee133;
+    border: none;
+    color: #272b30
+}
+
+.DepositHostToHost_nigerianVirtualAccounts_kanrA .DepositHostToHost_notice_oYDdJ {
+    background-color: #fff;
+    border: none
+}
+
+.DepositHostToHost_nigerianVirtualAccounts_kanrA .DepositHostToHost_label_Yx_6m,
+.DepositHostToHost_nigerianVirtualAccounts_kanrA .DepositHostToHost_value_x0XWN {
+    color: #272b30
+}
+
+.DepositHostToHost_icon_xiIbk {
+    margin-bottom: 10px;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.DepositHostToHost_fields_eWXEo {
+    display: grid;
+    margin-top: 15px;
+    grid-row-gap: 15px;
+    row-gap: 15px
+}
+
+.DepositHostToHost_grid_IPRqa {
+    display: grid;
+    grid-template-areas: "label icon" "value icon"
+}
+
+.DepositHostToHost_gridPointer_DtIaZ {
+    cursor: pointer
+}
+
+.DepositHostToHost_iconCopy_RHnKn {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    grid-area: icon;
+    height: 25px;
+    justify-content: center;
+    place-self: center end;
+    width: 25px
+}
+
+.DepositHostToHost_iconCopy_RHnKn svg {
+    fill: #0075ff;
+    height: 15px;
+    width: 15px
+}
+
+.DepositHostToHost_footer_XtQeQ {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr
+}
+
+.DepositHostToHost_button_D0ZOO {
+    background-color: #97aee133;
+    background-image: linear-gradient(to bottom right, #0095ff, #0855c4);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.DepositHostToHost_underCardNotification_FjNh3 {
+    background-color: #edf0f7;
+    border-radius: 10px;
+    color: #5c72a3cc;
+    font-size: 11px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    white-space: pre-wrap
+}
+
+.DepositHostToHost_inputFieldWrapper_yb_SR {
+    background: #F3F5F9;
+    border: 2px solid rgba(9, 15, 30, .1);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px
+}
+
+.DepositHostToHost_inputFieldLabel_F_24G {
+    color: #090f1e80;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -.43px;
+    line-height: 22px;
+    margin-bottom: 10px
+}
+
+.DepositHostToHost_inputFieldContent_SHsgi {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    justify-content: center;
+    position: relative
+}
+
+.DepositHostToHost_cardModeIndia_T1JoV {
+    background-color: #97aee133;
+    border: none;
+    border-radius: 10px;
+    color: #0e1011;
+    margin-bottom: 15px;
+    padding: 12px 15px
+}
+
+.DepositHostToHost_inputFieldWrapperModeIndia_hSY7I {
+    background: rgba(151, 174, 225, .2);
+    border: none;
+    border-radius: 12px;
+    padding: 15px
+}
+
+.DepositHostToHost_qrContentWrapper_ZCR1c {
+    background-color: #fff;
+    border-radius: 10px;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    display: flex;
+    padding: 10px
+}
+
+.DepositHostToHost_qrContentWrapperMobile_g31a2 {
+    flex-direction: column-reverse;
+    justify-content: center
+}
+
+.DepositHostToHost_qrCodeWrapper_BAu9u {
+    align-items: center;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px
+}
+
+.DepositHostToHost_qrCode_HSxXP {
+    border-radius: 7.13px;
+    color: #000;
+    max-width: 130px
+}
+
+.DepositHostToHost_qrCodeMobile_yZpYB {
+    margin-bottom: 20px;
+    max-width: 120px;
+    row-gap: 12px
+}
+
+.DepositHostToHost_qrDescription_i2b8g {
+    color: #090f1e80;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: pre-wrap
+}
+
+.DepositHostToHost_downloadButton_g10qv {
+    color: #fff !important
+}
+
+.DepositHostToHost_downloadButton_g10qv {
+    align-items: center;
+    background-image: linear-gradient(145deg, #0095FF -36.18%, #0855C4 150.8%);
+    border-radius: 10px;
+    display: flex;
+    font-size: 14px;
+    gap: 4px;
+    justify-content: space-between;
+    line-height: 20px;
+    padding: 10px 12px;
+    white-space: nowrap;
+    width: 100%
+}
+
+.DepositHostToHost_buttonOpenApp_lgYmQ {
+    align-items: center;
+    background-color: #97aee133;
+    background-image: linear-gradient(145deg, #0095FF -36.18%, #0855C4 150.8%);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    letter-spacing: .1px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%
+}
+
+.DepositHostToHost_inputField_Rszma,
+.DepositHostToHost_inputField_Rszma .control {
+    padding: 0
+}
+
+.DepositHostToHost_inputWithTooltipField_taqzN .required-container {
+    margin-right: 20px
+}
+
+.DepositHostToHost_inputFieldMobile_RH_If .control {
+    padding: 0 15px
+}
+
+.DepositHostToHost_gridModeIndia_EbqgZ {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 8px 16px
+}
+
+.DepositHostToHost_gridModeIndia_EbqgZ .DepositHostToHost_label_Yx_6m {
+    font-size: 12px;
+    font-weight: 700;
+    gap: 2px
+}
+
+.DepositHostToHost_gridModeIndia_EbqgZ .DepositHostToHost_value_x0XWN {
+    color: #090f1e80;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px
+}
+
+.DepositHostToHost_gridModeIndia_EbqgZ .DepositHostToHost_iconCopy_RHnKn {
+    transform: scaleX(-1)
+}
+
+.DepositHostToHost_gridModeIndia_EbqgZ .DepositHostToHost_iconCopy_RHnKn svg {
+    fill: #d0d0d0;
+    height: 16px;
+    width: 16px
+}
+
+.DepositMoneyConfirm_root_dp6O3 {
+    display: flex;
+    flex-direction: column
+}
+
+.DepositMoneyConfirm_content_OJp5W {
+    background-color: #97aee133;
+    border-radius: 10px;
+    padding: 15px
+}
+
+.DepositMoneyConfirm_instruction_XJKLj {
+    background: #7A8CB3;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 18px;
+    margin-top: 10px;
+    padding: 15px;
+    text-shadow: 0 1px 3px rgba(9, 15, 30, .2)
+}
+
+.DepositMoneyConfirm_phoneText_ZJSm1 {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 18px;
+    margin-top: 20px
+}
+
+.DepositMoneyConfirm_input_reQnR {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    justify-content: center;
+    margin-top: 10px
+}
+
+.DepositMoneyConfirm_timer_VOauq {
+    margin: 15px 0
+}
+
+.DepositMoneyConfirm_buttons_A0LWl {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr
+}
+
+.DepositMoneyConfirm_buttonsMobile_k28GD {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: auto 1fr
+}
+
+.DepositMoneyConfirm_button_cclh3 {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: .1px !important;
+    line-height: 20px !important
+}
+
+.DepositMoneyConfirm_button_cclh3 {
+    height: 40px
+}
+
+.DepositMoneyConfirm_buttonCancel_hlbmK {
+    color: #000 !important
+}
+
+.DepositMoneyConfirm_buttonsMobile_k28GD .DepositMoneyConfirm_buttonCancel_hlbmK {
+    padding: 0 17px
+}
+
+.DepositMoneyConfirm_buttonConfirm_QH_Sz {
+    background: linear-gradient(145deg, #0095FF -36.18%, #0855C4 150.8%) !important
+}
+
+.DepositMoney_root_sVIY2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%
+}
+
+.DepositUnifiedForm_card_eLuba {
+    background-color: #f0f2f5;
+    border: 2px solid #D7DBE2;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px
+}
+
+.DepositUnifiedForm_instruction_EMs4R {
+    background: #FFF;
+    border: 1px solid rgba(9, 15, 30, .1);
+    border-radius: 10px;
+    color: #141415;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 18px;
+    padding: 10px;
+    white-space: pre-wrap
+}
+
+.DepositUnifiedForm_label_RoZQI {
+    color: #141415;
+    font-size: 11px;
+    font-weight: 400;
+    grid-area: label;
+    letter-spacing: .06px;
+    line-height: 13px
+}
+
+.DepositUnifiedForm_value_d2MJp {
+    color: #141415;
+    font-size: 16px;
+    font-weight: 700;
+    grid-area: value;
+    letter-spacing: -.08px;
+    line-height: 17px
+}
+
+.DepositUnifiedForm_icon_kNsk9 {
+    margin-bottom: 10px;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.DepositUnifiedForm_fields_Ia5V3 {
+    display: grid;
+    margin-top: 15px;
+    grid-row-gap: 15px;
+    row-gap: 15px
+}
+
+.DepositUnifiedForm_grid_Thrti {
+    display: grid;
+    grid-gap: 3px;
+    gap: 3px;
+    grid-template-areas: "label icon" "value icon"
+}
+
+.DepositUnifiedForm_gridPointer_GgKIR {
+    cursor: pointer
+}
+
+.DepositUnifiedForm_iconCopy_RPhXP {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    grid-area: icon;
+    height: 25px;
+    justify-content: center;
+    place-self: center end;
+    width: 25px
+}
+
+.DepositUnifiedForm_iconCopy_RPhXP svg {
+    fill: #0075ff;
+    height: 15px;
+    width: 15px
+}
+
+.DepositUnifiedForm_footer_q0hiF {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: "cancel complete" "timer timer";
+    grid-template-columns: 1fr 1fr
+}
+
+.DepositUnifiedForm_timer_o4VKA {
+    grid-area: timer
+}
+
+.DepositUnifiedForm_timerSmallSize_OldE6 {
+    grid-area: cancel
+}
+
+.DepositUnifiedForm_cancel_SPIdd {
+    background-color: #97aee133;
+    background-image: none;
+    border-radius: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    grid-area: cancel;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%
+}
+
+.DepositUnifiedForm_complete_If8Xo {
+    background-image: linear-gradient(to bottom right, #0095ff, #0855c4);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    grid-area: complete;
+    height: 40px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.DepositUnifiedForm_inputFieldWrapper_dxrt9 {
+    background: #F0F2F5;
+    border: 2px solid #D7DBE2;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px
+}
+
+.DepositUnifiedForm_inputFieldLabel_mJj45 {
+    color: #6f7480;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -.43px;
+    line-height: 22px;
+    margin-bottom: 10px
+}
+
+.DepositUnifiedForm_inputFieldContent_FuuRS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.DepositUnifiedForm_inputField_P6RVF {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0;
+    position: relative
+}
+
+.DepositUnifiedForm_inputField_P6RVF .control {
+    padding: 0
+}
+
+.DepositUnifiedForm_inputField_P6RVF .input,
+.DepositUnifiedForm_inputField_P6RVF .input-message-container,
+.DepositUnifiedForm_inputField_P6RVF .input-wrapper {
+    height: 100%;
+    width: 100%
+}
+
+.DepositUnifiedForm_inputWithTooltipField_O_lsM .required-container {
+    margin-right: 20px
+}
+
+.DepositUnifiedForm_inputFieldMobile_UsTX9 .input {
+    padding: 0 15px
+}
+
+.DepositUnifiedForm_cardQr_JpMGY {
+    background-color: #f0f2f5;
+    border: none;
+    border-radius: 10px;
+    color: #0e1011;
+    margin-bottom: 15px;
+    padding: 12px 15px
+}
+
+.DepositUnifiedForm_inputFieldWrapperModeIndia_pVVPi {
+    background: #F0F2F5;
+    border: none;
+    border-radius: 12px;
+    padding: 15px
+}
+
+.DepositUnifiedForm_qrContentWrapper_mS09T {
+    background-color: #fff;
+    border-radius: 10px;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    display: flex;
+    padding: 10px
+}
+
+.DepositUnifiedForm_qrContentWrapperMobile_VYHbW {
+    background-color: #f0f2f5;
+    flex-direction: column-reverse;
+    justify-content: center
+}
+
+.DepositUnifiedForm_qrCodeWrapper_lFZpo {
+    align-items: center;
+    color: #141415;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px
+}
+
+.DepositUnifiedForm_qrCode_XEsDi {
+    border-radius: 7.13px;
+    color: #141415;
+    max-width: 130px
+}
+
+.DepositUnifiedForm_qrCodeMobile_ESR3m {
+    max-width: 120px;
+    row-gap: 12px
+}
+
+.DepositUnifiedForm_qrDescription_IWaj3 {
+    color: #141415;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    white-space: pre-wrap
+}
+
+.DepositUnifiedForm_downloadButton_bUBDn {
+    color: #fff !important
+}
+
+.DepositUnifiedForm_downloadButton_bUBDn {
+    align-items: center;
+    background-image: linear-gradient(145deg, #0095FF -36.18%, #0855C4 150.8%);
+    border-radius: 10px;
+    display: flex;
+    font-size: 14px;
+    gap: 4px;
+    justify-content: center;
+    line-height: 20px;
+    padding: 10px 12px;
+    white-space: nowrap;
+    width: 100%
+}
+
+.DepositUnifiedForm_buttonOpenApp_orpt4 {
+    align-items: center;
+    background-color: #97aee133;
+    background-image: linear-gradient(145deg, #0095FF -36.18%, #0855C4 150.8%);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    letter-spacing: .1px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%
+}
+
+.DepositUnifiedForm_gridModeIndia_dj8j4 {
+    background-color: #fff;
+    border-radius: 12px;
+    gap: 2px;
+    padding: 8px 16px
+}
+
+.DepositUnifiedForm_gridModeIndia_dj8j4 .DepositUnifiedForm_label_RoZQI {
+    font-size: 12px;
+    font-weight: 700
+}
+
+.DepositUnifiedForm_gridModeIndia_dj8j4 .DepositUnifiedForm_value_d2MJp {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px
+}
+
+.DepositUnifiedForm_gridModeIndia_dj8j4 .DepositUnifiedForm_iconCopy_RPhXP {
+    transform: scaleX(-1)
+}
+
+.DepositUnifiedForm_gridModeIndia_dj8j4 .DepositUnifiedForm_iconCopy_RPhXP svg {
+    fill: #d0d0d0;
+    height: 16px;
+    width: 16px
+}
+
+.BillingSupport_root_UJQ6h {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    margin: 15px 0;
+    color: #1877de;
+    cursor: pointer
+}
+
+.BillingSupport_text__kXyL {
+    margin-left: 8px;
+    font-size: 13px
+}
+
+.DepositSummary_row_cxqMy {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between
+}
+
+.DepositSummary_text_LRA1F {
+    color: #000;
+    font-size: 11px;
+    line-height: 24px
+}
+
+.DepositSummary_textTransparent_He5pG {
+    opacity: .5
+}
+
+.DepositSummary_textAccent_WTrZJ {
+    color: #1a88f3
+}
+
+.DepositSummary_textBold_B_m1m {
+    font-size: 13px;
+    font-weight: 700
+}
+
+.DepositSummary_separator_xGL9_ {
+    background: #090f1e;
+    height: 1px;
+    margin: 5px 0;
+    opacity: .1
+}
+
+.DepositBonusNotification_root_HV4X5 {
+    border-radius: 10px;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 9px;
+    padding: 11px 11px 11px 40px;
+    position: relative
+}
+
+.DepositBonusNotification_root_HV4X5:after {
+    border-radius: 2px;
+    bottom: -4px;
+    content: "";
+    height: 10px;
+    left: 15px;
+    pointer-events: none;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 10px;
+    z-index: -1
+}
+
+.DepositBonusNotification_error_pIBmY {
+    background-color: #252f45;
+    color: #fff
+}
+
+.DepositBonusNotification_error_pIBmY:after {
+    background-color: #252f45
+}
+
+.DepositBonusNotification_success_spROV {
+    background-image: linear-gradient(98deg, #CA49DF, #6A16DF, #1697DF)
+}
+
+.DepositBonusNotification_success_spROV:after {
+    background-color: #ae3ae0
+}
+
+.DepositBonusNotification_icon_bQ3nR {
+    left: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.DepositBonusNotification_rootMobile_Xqt4W {
+    padding: 11px 11px 11px 26px
+}
+
+.DepositBonusNotification_rootMobile_Xqt4W .DepositBonusNotification_icon_bQ3nR {
+    left: 8px
+}
+
+.DepositFreeSpinTooltip_wrapper__h0st {
+    padding-bottom: 9px;
+    max-height: 40px;
+    overflow: hidden;
+    transition: all .4s
+}
+
+.DepositFreeSpinTooltip_wrapper__h0st.DepositFreeSpinTooltip_collapsed_toa3G {
+    max-height: 0;
+    padding-bottom: 0
+}
+
+.DepositFreeSpinTooltip_container_xlXnC {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0 15px;
+    background-color: #e7f1fc
+}
+
+.DepositFreeSpinTooltip_activated_kjdGJ .DepositFreeSpinTooltip_container_xlXnC {
+    background-image: linear-gradient(258.63deg, #4e4aff -.71%, #cf228a 80.09%)
+}
+
+.DepositFreeSpinTooltip_mobile_nnGBQ .DepositFreeSpinTooltip_container_xlXnC {
+    height: 33px;
+    background-color: #252f45
+}
+
+.DepositFreeSpinTooltip_mobile_nnGBQ.DepositFreeSpinTooltip_activated_kjdGJ .DepositFreeSpinTooltip_container_xlXnC {
+    padding: 0 9px
+}
+
+.DepositFreeSpinTooltip_text_t8RU0 {
+    font-size: 11px;
+    line-height: 13px;
+    margin-left: 10px;
+    color: #086ddc
+}
+
+.DepositFreeSpinTooltip_activated_kjdGJ .DepositFreeSpinTooltip_text_t8RU0,
+.DepositFreeSpinTooltip_mobile_nnGBQ .DepositFreeSpinTooltip_text_t8RU0 {
+    color: #fff
+}
+
+.DepositFreeSpinTooltip_mobile_nnGBQ .DepositFreeSpinTooltip_text_t8RU0 {
+    margin-left: 5px
+}
+
+.DepositFreeSpinTooltip_bold_gDhdv {
+    font-weight: 600
+}
+
+.DepositFreeSpinTooltip_mediumIcon_SGL6G {
+    width: 15px
+}
+
+.DepositFreeSpinTooltip_smallIcon_xyQ_F {
+    width: 11px
+}
+
+.DepositFreeSpinTooltip_arrowIcon_OzJ8P {
+    position: absolute;
+    bottom: -8px;
+    left: 13.5px
+}
+
+.DepositFreeSpinTooltip_desktop_Z46aF.DepositFreeSpinTooltip_notActivated__lbuF path[class*=arrow-gray],
+.DepositFreeSpinTooltip_desktop_Z46aF.DepositFreeSpinTooltip_notActivated__lbuF path[class*=arrow-purple] {
+    display: none
+}
+
+.DepositFreeSpinTooltip_activated_kjdGJ path[class*=arrow-blue],
+.DepositFreeSpinTooltip_activated_kjdGJ path[class*=arrow-gray] {
+    display: none
+}
+
+.DepositFreeSpinTooltip_mobile_nnGBQ.DepositFreeSpinTooltip_notActivated__lbuF path[class*=arrow-blue],
+.DepositFreeSpinTooltip_mobile_nnGBQ.DepositFreeSpinTooltip_notActivated__lbuF path[class*=arrow-purple] {
+    display: none
+}
+
+.DepositModalAmount_iconPaymentWrapper_kkCVo {
+    margin-right: 12px;
+    position: relative
+}
+
+.DepositModalAmount_iconPaymentWrapper_kkCVo:after {
+    position: absolute;
+    content: "";
+    right: -11px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #6a769033
+}
+
+.DepositModalAmount_iconPaymentWrapper_kkCVo .DepositModalAmount_iconPayment_j1lTD {
+    height: 17px
+}
+
+.VSelectNative_root_ayE7G {
+    position: relative;
+    width: 100%
+}
+
+.VSelectNative_root_ayE7G:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 5px;
+    background-image: url(https://v1.bundlecdn.com/img/arrow.f6995fce4.svg);
+    right: 18px;
+    top: calc(50% - 2.5px)
+}
+
+.VSelectNative_select_N6YkD {
+    width: 100%;
+    background-color: #edf0f7;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 12px;
+    color: #070c19cc
+}
+
+.VSelectNative_select_N6YkD:invalid {
+    font-size: 13px;
+    color: #070c1966
+}
+
+.WalletOperationSelect_root_OCPMz {
+    position: relative;
+    width: 100%
+}
+
+.WalletOperationSelect_root_OCPMz:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 5px;
+    background-image: url(https://v1.bundlecdn.com/img/arrow.ad1d68872.svg);
+    background-repeat: no-repeat;
+    right: 15px;
+    top: calc(50% - 2.5px)
+}
+
+.WalletOperationSelect_select_THZJm {
+    width: 100%;
+    background-color: #94a6cd33;
+    height: 36px;
+    font-size: 13px;
+    padding: 0 15px;
+    border-radius: 13px;
+    color: #090f1ecc
+}
+
+.WalletOperationSelect_select_THZJm:invalid {
+    color: #6a7690
+}
+
+.ChangePayment_root_n4TJ6 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 46px;
+    padding: 0 15px;
+    border-radius: 12px;
+    background-color: #94a6cd33
+}
+
+.ChangePayment_wrapper_xD6eq {
+    margin-right: auto
+}
+
+.ChangePayment_text_BV1_w {
+    font-size: 13px;
+    font-weight: 600;
+    color: #090f1e;
+    line-height: 1;
+    margin-bottom: 2px
+}
+
+@media (max-width:370px) {
+    .ChangePayment_text_BV1_w {
+        font-size: 11px
+    }
+}
+
+.ChangePayment_name_W1hzy {
+    font-size: 10px;
+    color: #090f1e80
+}
+
+.ChangePayment_name_W1hzy:first-child {
+    margin-bottom: 2px
+}
+
+.ChangePayment_change_PzNR0 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #096dff;
+    margin-left: 7px;
+    cursor: pointer
+}
+
+.ChangePayment_icons_toitZ {
+    display: inline-block;
+    margin-right: 10px
+}
+
+.ChangePayment_single_HGKnL {
+    max-width: 50px
+}
+
+.DepositCreate_annotation_vU8aw {
+    margin-bottom: 15px
+}
+
+.DepositCreate_root_BjYQs {
+    display: flex;
+    flex-flow: column nowrap
+}
+
+.DepositCreate_root_BjYQs .DepositCreate_tags_vRC54 {
+    margin-top: 15px
+}
+
+.DepositCreate_description_xnh4v {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    margin-bottom: 15px
+}
+
+.DepositCreate_limits_M2pYl {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #6a7690a6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px
+}
+
+.DepositCreate_fields_MM7dg>* {
+    margin-bottom: 10px
+}
+
+.DepositCreate_button_ChZTr {
+    margin-top: 15px;
+    font-size: 14px;
+    box-shadow: unset
+}
+
+.DepositCreate_waitingRequisites_QXnel {
+    margin-top: 15px
+}
+
+.DepositCreate_changePayment_tsY1c {
+    margin-bottom: 20px
+}
+
+.DepositCreate_headerChip_pnfr4 {
+    background-color: #1a88f3;
+    text-align: center;
+    line-height: 33px;
+    font-size: 11px;
+    margin: -20px -20px 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.DepositCreate_videoInstruction_KKWws {
+    margin-top: 15px
+}
+
+.DepositCreate_desktop_Pt0n7 .DepositCreate_button_ChZTr {
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    font-size: 16px
+}
+
+.DepositCreate_desktop_Pt0n7 .DepositCreate_amountGroup_XhGAy {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column-reverse
+}
+
+.DepositCreate_desktop_Pt0n7 .DepositCreate_amountGroup_XhGAy .DepositCreate_limits_M2pYl {
+    margin-top: 0;
+    margin-bottom: 20px;
+    flex-flow: column nowrap;
+    line-height: 16px;
+    font-size: 12px;
+    color: #070c19
+}
+
+.ConfirmationId_root_Q84zf {
+    background: #EAEFF9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 12px
+}
+
+.ConfirmationId_input_Lbnfl {
+    display: flex;
+    flex-direction: column
+}
+
+.ConfirmationId_input_Lbnfl .input-wrapper {
+    min-height: 44px;
+    padding-left: 10px;
+    width: 100%
+}
+
+.ConfirmationId_input_Lbnfl input {
+    padding-left: 0;
+    width: 100%
+}
+
+.ConfirmationId_label_Psd1g {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    margin-bottom: 10px
+}
+
+.DepositBonusApplierHeader_root_GK6RL {
+    max-width: 153px;
+    padding-bottom: 10px;
+    z-index: 1
+}
+
+.DepositBonusApplierHeader_subtitle_yKdq3 {
+    color: #fffc;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 2px
+}
+
+.DepositBonusApplierHeader_titleWrapper_xhC44 {
+    max-width: calc(100% - 21px);
+    white-space: nowrap
+}
+
+.DepositBonusApplierHeader_title_rgeJ6 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    line-height: 1.25;
+    margin-right: 5px;
+    white-space: wrap
+}
+
+.DepositBonusApplierHeader_tooltipWrapper_MRFTN {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.DepositBonusApplierHeader_tooltip_CuuzM {
+    white-space: pre-wrap;
+    width: 200px
+}
+
+.DepositBonusApplierHeader_tooltipIcon_gxevy {
+    color: #fff;
+    cursor: pointer
+}
+
+.DepositTransferGuarantee_root_lVWiu {
+    display: flex;
+    background-color: #12b857;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    padding: 11px 20px;
+    -moz-column-gap: 10px;
+    column-gap: 10px
+}
+
+.DepositTransferGuarantee_root_lVWiu .DepositTransferGuarantee_icon_UXsa8 {
+    height: 30px;
+    width: 30px
+}
+
+.DepositBonusApplier_root_b6Kjp {
+    border-radius: 14px;
+    position: relative
+}
+
+.DepositBonusApplier_rootActive_hz5_I:after {
+    border: 2px solid #31bc69;
+    border-radius: 14px;
+    content: "";
+    height: calc(100% + 8px);
+    left: -4px;
+    pointer-events: none;
+    position: absolute;
+    top: -4px;
+    width: calc(100% + 8px)
+}
+
+.DepositBonusApplier_inner_J_Gn4 {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 103px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative
+}
+
+.DepositBonusApplier_bonusImage_EeRWf {
+    max-height: 103px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.DepositBonusApplier_checkboxButton_eokj9 {
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    height: 24px;
+    margin-right: 8px;
+    position: relative;
+    transition: .3s;
+    vertical-align: middle;
+    width: 24px
+}
+
+.DepositBonusApplier_checkboxButton_eokj9:after {
+    background-image: url(https://v1.bundlecdn.com/img/check-white.41795add4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    height: 16px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+    width: 16px
+}
+
+.DepositBonusApplier_checkboxButtonActive_qNhTp {
+    background-image: linear-gradient(89deg, #31bc69 2%, #089e4e 98%), linear-gradient(0deg, #fff, #fff)
+}
+
+.DepositBonusApplier_checkboxButtonActive_qNhTp:after {
+    opacity: 1
+}
+
+.DepositBonusApplier_checkboxText_DXBnc {
+    color: #fff;
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 400;
+    vertical-align: middle
+}
+
+.DepositBonusApplier_timer_wwYB0 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #ffffff1a;
+    border-bottom-right-radius: 12px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    border-top-left-radius: 12px;
+    bottom: 0;
+    color: #fff;
+    font-size: 9px;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    line-height: 11px;
+    min-width: 118px;
+    overflow: hidden;
+    padding: 6px 10px;
+    position: absolute;
+    right: 0;
+    z-index: 0
+}
+
+.DepositBonusApplier_rootMobile_HcGWH .DepositBonusApplier_inner_J_Gn4 {
+    min-height: 113px;
+    padding: 15px
+}
+
+.DepositBonusApplier_rootMobile_HcGWH .DepositBonusApplier_timer_wwYB0 {
+    font-size: 12px;
+    letter-spacing: .25px;
+    line-height: 14px;
+    padding: 5px 10px
+}
+
+.DepositBonusApplier_rootMobile_HcGWH .DepositBonusApplier_bonusImage_EeRWf {
+    max-height: 113px
+}
+
+.DepositWaitPayment_root_zwRZB {
+    height: 100%
+}
+
+.DepositWaitPayment_lightMode_BzPYU .DepositWaitPayment_warning_AC4xP {
+    background-color: #090f1e1a;
+    color: #fff
+}
+
+.DepositWaitPayment_lightMode_BzPYU .DepositWaitPayment_label_g8frY,
+.DepositWaitPayment_lightMode_BzPYU .DepositWaitPayment_value_SX2fb {
+    color: #fff
+}
+
+.DepositWaitPayment_grayMode_IJllm .DepositWaitPayment_warning_AC4xP {
+    background: #7a8cb3;
+    text-shadow: 0 1px 3px rgba(9, 15, 30, .2);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: .1px
+}
+
+.DepositWaitPayment_grayMode_IJllm .DepositWaitPayment_value_SX2fb {
+    color: #272b30
+}
+
+.DepositWaitPayment_grayMode_IJllm .DepositWaitPayment_label_g8frY {
+    color: #0e1011
+}
+
+.DepositWaitPayment_grayMode_IJllm .DepositWaitPayment_icon_ci95Z {
+    box-shadow: 0 2px 8px #00000014, 0 4px 24px #00000014
+}
+
+div.DepositWaitPayment_contrastMode_WaZf0 .DepositWaitPayment_warning_AC4xP {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(9, 15, 30, .1)
+}
+
+div.DepositWaitPayment_contrastMode_WaZf0 .DepositWaitPayment_label_g8frY,
+div.DepositWaitPayment_contrastMode_WaZf0 .DepositWaitPayment_value_SX2fb {
+    color: #000
+}
+
+div.DepositWaitPayment_contrastMode_WaZf0 .DepositWaitPayment_card_O2VwL {
+    background: #f3f5f9 !important;
+    border-color: #090f1e1a
+}
+
+.DepositWaitPayment_text_qR1Vd {
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 12px
+}
+
+@media (min-width:768px) {
+    .DepositWaitPayment_text_qR1Vd {
+        margin-bottom: 30px;
+        font-size: 14px
+    }
+}
+
+.DepositWaitPayment_textSmall_Xf1xV {
+    color: #070c19;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 15px
+}
+
+.DepositWaitPayment_card_O2VwL {
+    margin-bottom: 15px
+}
+
+.DepositWaitPayment_instruction_Flmp4 {
+    margin: 15px -15px -15px;
+    padding: 15px 20px 20px
+}
+
+@media (min-width:768px) {
+    .DepositWaitPayment_instruction_Flmp4 {
+        margin: 20px -20px -20px
+    }
+}
+
+.DepositWaitPayment_grid_u8hKU {
+    display: grid;
+    grid-template-areas: "label icon" "value icon";
+    cursor: pointer
+}
+
+.DepositWaitPayment_fields_q1gJ5 {
+    display: grid;
+    grid-gap: 15px
+}
+
+.DepositWaitPayment_first_Z4XGz {
+    order: -1
+}
+
+.DepositWaitPayment_label_g8frY {
+    grid-area: label;
+    font-size: 10px;
+    line-height: 11px;
+    color: #272b30;
+    opacity: .7
+}
+
+.DepositWaitPayment_value_SX2fb {
+    grid-area: value;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 2px;
+    color: #272b30
+}
+
+@media (min-width:768px) {
+    .DepositWaitPayment_value_SX2fb {
+        font-size: 16px
+    }
+}
+
+.DepositWaitPayment_valueImg_w1j3U {
+    width: 160px;
+    height: 11px;
+    margin-top: 5px
+}
+
+@media (min-width:768px) {
+    .DepositWaitPayment_valueImg_w1j3U {
+        width: 200px;
+        height: 14px;
+        margin-top: 5px
+    }
+}
+
+.DepositWaitPayment_icon_ci95Z {
+    grid-area: icon;
+    justify-self: end;
+    align-self: center;
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px
+}
+
+.DepositWaitPayment_warning_AC4xP {
+    background-color: #fff;
+    text-align: left;
+    color: #272b30;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 12px;
+    line-height: 16px;
+    margin-bottom: 15px
+}
+
+.DepositWaitPayment_buttons_HUbGy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin-bottom: 20px
+}
+
+.DepositWaitPayment_buttonCancel_tePZ3 {
+    color: #5c72a3cc;
+    background-color: #5c72a31a;
+    font-weight: 500;
+    justify-content: center;
+    padding: 0 15px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-width: 0;
+    min-height: 30px;
+    cursor: pointer;
+    transition: all .1s;
+    border-radius: 30px;
+    margin-left: auto;
+    font-size: 13px
+}
+
+@media (min-width:768px) {
+    .DepositWaitPayment_buttonCancel_tePZ3 {
+        font-size: 14px;
+        padding: 0 15px
+    }
+}
+
+.DepositWaitPayment_button_QXo8F {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #97aee133;
+    border-radius: 10px;
+    color: #000;
+    width: 100%;
+    height: 40px;
+    line-height: 40px
+}
+
+.DepositWaitPayment_buttonPrimary_dPQdX {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #0095ff, #0855c4)
+}
+
+.DepositWaitPayment_buttonPrimary_dPQdX[disabled] {
+    cursor: default;
+    opacity: .8
+}
+
+.DepositWaitPayment_info_WbUvs {
+    color: #5c72a3cc;
+    border-radius: 10px;
+    background: rgba(151, 174, 225, .2);
+    padding: 15px;
+    text-align: center
+}
+
+.DepositWaitPayment_footer_brYDe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px
+}
+
+.DepositWaitPayment_footer_brYDe>*:nth-child(1) {
+    grid-column: 1
+}
+
+.DepositWaitPayment_footer_brYDe>*:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2
+}
+
+.DepositWaitPayment_footer_brYDe>*:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2
+}
+
+.DepositWaitPayment_footer_brYDe>*.DepositWaitPayment_button_QXo8F:only-of-type {
+    grid-column: 2;
+    grid-row: 1
+}
+
+.DepositWaitPayment_changePayment_cGlo8 {
+    margin-bottom: 15px
+}
+
+.DepositBonusList_root_OcgMp {
+    padding: 0 20px 16px;
+    position: relative;
+    z-index: 10
+}
+
+.DepositBonusList_heading_VYxW6 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px
+}
+
+.DepositBonusList_headingTitle_LFBNY {
+    color: #090f1e;
+    font-family: var(--font-family-display);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    line-height: 24px
+}
+
+.DepositBonusList_headingControlsItem_R8A_a {
+    align-items: center;
+    background-color: #dce4f9;
+    border-radius: 6px;
+    color: #6a7690;
+    display: inline-flex;
+    height: 20px;
+    justify-content: center;
+    padding: 0;
+    width: 20px
+}
+
+.DepositBonusList_headingControlsItem_R8A_a:not(:last-child) {
+    margin-right: 5px
+}
+
+.DepositBonusList_list_kuZQA {
+    align-items: center;
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+    -ms-overflow-style: none;
+    overflow-x: auto;
+    padding: 4px 0;
+    scrollbar-width: none
+}
+
+.DepositBonusList_list_kuZQA::-webkit-scrollbar {
+    display: none
+}
+
+.DepositBonusList_listItem_t60Z4 {
+    flex: 0 0 calc(var(--22af3fe6) + var(--5f072d2e));
+    padding-right: 8px;
+    width: calc(var(--22af3fe6) + var(--5f072d2e))
+}
+
+.DepositBonusList_listItem_t60Z4:first-child {
+    flex: 0 0 calc(var(--22af3fe6) + 20px + var(--5f072d2e));
+    padding-left: 20px;
+    width: calc(var(--22af3fe6) + 20px + var(--5f072d2e))
+}
+
+.DepositBonusList_listItem_t60Z4:last-child {
+    flex: 0 0 calc(var(--22af3fe6) + 20px);
+    padding-right: 20px;
+    width: var(--22af3fe6) + 20px
+}
+
+.DepositBonusList_listItem_t60Z4:only-child {
+    padding-right: 0
+}
+
+@font-face {
+    font-family: swiper-icons;
+    src: url(data:application/font-woff;charset=utf-8;base64,\ d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA);
+    font-weight: 400;
+    font-style: normal
+}
+
+:root {
+    --swiper-theme-color: #007aff
+}
+
+:host {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    overflow: clip;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block
+}
+
+.swiper-vertical>.swiper-wrapper {
+    flex-direction: column
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box
+}
+
+.swiper-android .swiper-slide,
+.swiper-ios .swiper-slide,
+.swiper-wrapper {
+    transform: translateZ(0)
+}
+
+.swiper-horizontal {
+    touch-action: pan-y
+}
+
+.swiper-vertical {
+    touch-action: pan-x
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block
+}
+
+.swiper-slide-invisible-blank {
+    visibility: hidden
+}
+
+.swiper-autoheight,
+.swiper-autoheight .swiper-slide {
+    height: auto
+}
+
+.swiper-autoheight .swiper-wrapper {
+    align-items: flex-start;
+    transition-property: transform, height
+}
+
+.swiper-backface-hidden .swiper-slide {
+    transform: translateZ(0);
+    backface-visibility: hidden
+}
+
+.swiper-3d.swiper-css-mode .swiper-wrapper {
+    perspective: 1200px
+}
+
+.swiper-3d .swiper-wrapper {
+    transform-style: preserve-3d
+}
+
+.swiper-3d {
+    perspective: 1200px
+}
+
+.swiper-3d .swiper-slide,
+.swiper-3d .swiper-cube-shadow {
+    transform-style: preserve-3d
+}
+
+.swiper-css-mode>.swiper-wrapper {
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+
+.swiper-css-mode>.swiper-wrapper::-webkit-scrollbar {
+    display: none
+}
+
+.swiper-css-mode>.swiper-wrapper>.swiper-slide {
+    scroll-snap-align: start start
+}
+
+.swiper-css-mode.swiper-horizontal>.swiper-wrapper {
+    scroll-snap-type: x mandatory
+}
+
+.swiper-css-mode.swiper-vertical>.swiper-wrapper {
+    scroll-snap-type: y mandatory
+}
+
+.swiper-css-mode.swiper-free-mode>.swiper-wrapper {
+    scroll-snap-type: none
+}
+
+.swiper-css-mode.swiper-free-mode>.swiper-wrapper>.swiper-slide {
+    scroll-snap-align: none
+}
+
+.swiper-css-mode.swiper-centered>.swiper-wrapper:before {
+    content: "";
+    flex-shrink: 0;
+    order: 9999
+}
+
+.swiper-css-mode.swiper-centered>.swiper-wrapper>.swiper-slide {
+    scroll-snap-align: center center;
+    scroll-snap-stop: always
+}
+
+.swiper-css-mode.swiper-centered.swiper-horizontal>.swiper-wrapper>.swiper-slide:first-child {
+    margin-left: var(--swiper-centered-offset-before)
+}
+
+.swiper-css-mode.swiper-centered.swiper-horizontal>.swiper-wrapper:before {
+    height: 100%;
+    min-height: 1px;
+    width: var(--swiper-centered-offset-after)
+}
+
+.swiper-css-mode.swiper-centered.swiper-vertical>.swiper-wrapper>.swiper-slide:first-child {
+    margin-top: var(--swiper-centered-offset-before)
+}
+
+.swiper-css-mode.swiper-centered.swiper-vertical>.swiper-wrapper:before {
+    width: 100%;
+    min-width: 1px;
+    height: var(--swiper-centered-offset-after)
+}
+
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-slide-shadow-bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10
+}
+
+.swiper-3d .swiper-slide-shadow {
+    background: rgba(0, 0, 0, .15)
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-3d .swiper-slide-shadow-top {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-3d .swiper-slide-shadow-bottom {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.swiper-lazy-preloader {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -21px;
+    margin-top: -21px;
+    z-index: 10;
+    transform-origin: 50%;
+    box-sizing: border-box;
+    border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));
+    border-radius: 50%;
+    border-top-color: transparent
+}
+
+.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader,
+.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader {
+    animation: swiper-preloader-spin 1s infinite linear
+}
+
+.swiper-lazy-preloader-white {
+    --swiper-preloader-color: #fff
+}
+
+.swiper-lazy-preloader-black {
+    --swiper-preloader-color: #000
+}
+
+@keyframes swiper-preloader-spin {
+    0% {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translateZ(0);
+    z-index: 10
+}
+
+.swiper-pagination.swiper-pagination-hidden {
+    opacity: 0
+}
+
+.swiper-pagination-disabled>.swiper-pagination,
+.swiper-pagination.swiper-pagination-disabled {
+    display: none !important
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%
+}
+
+.swiper-pagination-bullets-dynamic {
+    overflow: hidden;
+    font-size: 0
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transform: scale(.33);
+    position: relative
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active,
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+    transform: scale(1)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+    transform: scale(.66)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+    transform: scale(.33)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+    transform: scale(.66)
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+    transform: scale(.33)
+}
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2)
+}
+
+button.swiper-pagination-bullet {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer
+}
+
+.swiper-pagination-bullet:only-child {
+    display: none !important
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, var(--swiper-theme-color))
+}
+
+.swiper-vertical>.swiper-pagination-bullets,
+.swiper-pagination-vertical.swiper-pagination-bullets {
+    right: var(--swiper-pagination-right, 8px);
+    left: var(--swiper-pagination-left, auto);
+    top: 50%;
+    transform: translate3d(0, -50%, 0)
+}
+
+.swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: var(--swiper-pagination-bullet-vertical-gap, 6px) 0;
+    display: block
+}
+
+.swiper-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px
+}
+
+.swiper-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    display: inline-block;
+    transition: .2s transform, .2s top
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px)
+}
+
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap
+}
+
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transition: .2s transform, .2s left
+}
+
+.swiper-horizontal.swiper-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+    transition: .2s transform, .2s right
+}
+
+.swiper-pagination-fraction {
+    color: var(--swiper-pagination-fraction-color, inherit)
+}
+
+.swiper-pagination-progressbar {
+    background: var(--swiper-pagination-progressbar-bg-color, rgba(0, 0, 0, .25));
+    position: absolute
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: var(--swiper-pagination-color, var(--swiper-theme-color));
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transform-origin: left top
+}
+
+.swiper-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    transform-origin: right top
+}
+
+.swiper-horizontal>.swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
+    width: 100%;
+    height: var(--swiper-pagination-progressbar-size, 4px);
+    left: 0;
+    top: 0
+}
+
+.swiper-vertical>.swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-vertical,
+.swiper-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-pagination-progressbar.swiper-pagination-horizontal.swiper-pagination-progressbar-opposite {
+    width: var(--swiper-pagination-progressbar-size, 4px);
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.swiper-pagination-lock {
+    display: none
+}
+
+.CryptoAnnotation_root_e42G8 {
+    border: 1px solid #E9EBEF;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px -2px #0e101108;
+    margin-bottom: 24px;
+    padding: 16px;
+    position: relative;
+    width: 100%
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_header_UGe8z {
+    display: grid;
+    grid-template-columns: auto max-content;
+    margin-bottom: 8px
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_header_UGe8z .CryptoAnnotation_minSum_km52g {
+    align-items: center;
+    color: #070c1980;
+    display: flex;
+    font-size: 12px;
+    gap: 4px;
+    margin-bottom: 4px
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_header_UGe8z .CryptoAnnotation_minSum_km52g .CryptoAnnotation_warningIcon_Y1AtP {
+    height: 16px;
+    width: 16px
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_header_UGe8z .CryptoAnnotation_sumValue_l4Ksw {
+    color: #070c19;
+    font-size: 14px;
+    font-weight: 600
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_header_UGe8z .CryptoAnnotation_arrowBox_sf9nT {
+    display: flex;
+    gap: 5px
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_swiper_b4K84 {
+    height: -moz-max-content;
+    height: max-content;
+    padding-bottom: 30px
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_swiper_b4K84 .CryptoAnnotation_slide_3iSLE {
+    display: flex;
+    height: auto
+}
+
+.CryptoAnnotation_root_e42G8 .CryptoAnnotation_swiper_b4K84 .CryptoAnnotation_slide_3iSLE .CryptoAnnotation_slideText_TIyMW {
+    font-size: 12px
+}
+
+.CryptoAnnotation_root_e42G8.CryptoAnnotation_mobile_Ghllz .CryptoAnnotation_header_UGe8z .CryptoAnnotation_minSum_km52g {
+    justify-content: center
+}
+
+.CryptoAnnotation_root_e42G8.CryptoAnnotation_mobile_Ghllz .CryptoAnnotation_header_UGe8z .CryptoAnnotation_sumValue_l4Ksw {
+    text-align: center
+}
+
+.CryptoAnnotation_arrow_dsihv {
+    align-items: center;
+    background-color: #f3f5f9;
+    border-radius: 6px;
+    color: #6a7690;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    width: 20px
+}
+
+.CryptoDepositPaymentInfo_depositInfo_NaYiO {
+    background-color: #fff;
+    border: 1px solid #e9ebef;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px -2px #0e10110d;
+    color: #070c19;
+    margin-bottom: 15px;
+    padding: 15px
+}
+
+.CryptoDepositPaymentInfo_active_pkk_e {
+    border: 2px solid rgba(0, 117, 255, 1)
+}
+
+.CryptoDepositPaymentInfo_contentWrapper_xaRoF {
+    display: flex;
+    justify-content: center
+}
+
+.CryptoDepositPaymentInfo_spaceBetween_tQPTK {
+    justify-content: space-between
+}
+
+.CryptoDepositPaymentInfo_title_oBXlW {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    opacity: .5;
+    text-align: center
+}
+
+.CryptoDepositPaymentInfo_alignLeft_i7tUh {
+    text-align: left
+}
+
+.CryptoDepositPaymentInfo_value_At5R6 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px
+}
+
+.CryptoDepositPaymentInfo_iconAttention_ASJAg {
+    margin-right: 4px
+}
+
+.CryptoDepositPaymentInfo_valueText_ZcJUi {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase
+}
+
+.CryptoDepositPaymentInfo_copyButton_pIWUT {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 24px #00000014;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    width: 24px
+}
+
+.CryptoDepositPaymentInfo_copyButton_pIWUT:hover {
+    background-color: #0075ff1a
+}
+
+.CryptoDepositPaymentInfo_disclaimer_KlCLg {
+    font-size: 12px;
+    line-height: 14px
+}
+
+.CryptoDeposit_root_PIKY3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.CryptoDeposit_card_dmVhs {
+    background-color: #97aee133;
+    border-radius: 15px;
+    color: #070c19;
+    overflow: hidden;
+    width: 100%
+}
+
+.CryptoDeposit_card_dmVhs .CryptoDeposit_depositInfo_sQsqi {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 12px
+}
+
+.CryptoDeposit_card_dmVhs .CryptoDeposit_gift_pklVy {
+    align-items: center;
+    background-color: #0387f21a;
+    color: #086ddc;
+    display: flex;
+    gap: 5px;
+    padding: 10px 12px
+}
+
+.CryptoDeposit_buttons_LGgnX {
+    display: flex;
+    gap: 12px;
+    margin: 15px 0;
+    width: 100%
+}
+
+.CryptoDeposit_buttons_LGgnX .CryptoDeposit_cancelButton_Rmzd5 {
+    display: flex;
+    height: 45px;
+    width: 45px
+}
+
+.CryptoDeposit_buttons_LGgnX .CryptoDeposit_copyButton_cOvUx {
+    background-image: linear-gradient(107.15deg, #0095FF 0%, #0855C4 100%);
+    box-shadow: 0 6px 22px #056dda4d;
+    font-size: 16px;
+    line-height: 19px;
+    min-height: 45px;
+    padding: 10px;
+    white-space: pre-line;
+    width: 100%
+}
+
+.CryptoDeposit_videoInstruction_EXn5E {
+    margin-bottom: 15px;
+    width: 100%
+}
+
+.CryptoDeposit_network_zDGIC {
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    white-space: nowrap
+}
+
+.CryptoDeposit_network_zDGIC>*:not(:last-child) {
+    margin-right: 4px
+}
+
+.CryptoDeposit_network_zDGIC .CryptoDeposit_cryptoName_lSEtE {
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.CryptoDeposit_qrCodeWrapper_bJsmr {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 180px
+}
+
+.CryptoDeposit_qrCodeWrapper_bJsmr.CryptoDeposit_smallQrCode_bHnYK {
+    width: 160px
+}
+
+.CryptoDeposit_qrCodeWrapper_bJsmr img {
+    width: 100%
+}
+
+.CryptoDeposit_textWrapper_l7DWi {
+    text-align: center
+}
+
+.CryptoDeposit_depositAddressTitle_adI_z {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 5px
+}
+
+.CryptoDeposit_depositAddress_dlPqu {
+    color: #858687;
+    font-size: 12px;
+    line-height: 15px;
+    word-break: break-all
+}
+
+.CryptoDeposit_depositAddress_dlPqu div {
+    display: inline-block
+}
+
+.CryptoDeposit_depositAddress_dlPqu div:not(:nth-child(2)) {
+    color: #070c19;
+    font-weight: 600
+}
+
+.CryptoGroup_root_bHYQ5 {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.CryptoGroup_tile_CVNZC {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    background-color: #edf0f7;
+    color: #090f1e
+}
+
+.CryptoGroup_tile_CVNZC>svg {
+    border-radius: 100%;
+    background-color: #fff
+}
+
+.CryptoGroup_activeTile_seAZt {
+    background-image: linear-gradient(129deg, #0095ff -19%, #0855c4 149%)
+}
+
+.CryptoGroup_activeTile_seAZt .CryptoGroup_network_pemiQ {
+    color: #fff
+}
+
+.CryptoGroup_activeTile_seAZt .CryptoGroup_depositTime_QheD_ {
+    opacity: .7;
+    color: #fff
+}
+
+.CryptoGroup_network_pemiQ {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px
+}
+
+.CryptoGroup_depositTime_QheD_ {
+    font-size: 12px;
+    line-height: 15px;
+    color: #6a7690
+}
+
+.CryptoGroup_check_grTjZ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #fff
+}
+
+.CryptoGroup_bottom_Forfe {
+    margin-top: auto
+}
+
+.CryptoGroup_info_ZjpPr {
+    margin-bottom: 16px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 10px;
+    background-color: #dc8b441a;
+    color: #dc8b44
+}
+
+.CryptoGroup_buttons_VIWL1 {
+    display: flex
+}
+
+.CryptoGroup_cancelButton_h8D8a {
+    display: flex;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px
+}
+
+.CryptoGroup_createButton_p8Fb0 {
+    width: 100%;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px
+}
+
+.DepositPeerToPeer_root_RenkO {
+    display: flex;
+    flex: 1
+}
+
+.DepositPeerToPeer_container_c00Mh {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.DepositPeerToPeer_loader_DY6n_ {
+    position: absolute;
+    inset: 0;
+    margin: auto
+}
+
+.DepositFreeSpinCheckbox_checkboxWrapper_kC4zm {
+    display: flex;
+    align-items: center;
+    padding: 0 7px 10px 10px
+}
+
+.DepositFreeSpinCheckbox_checkbox_wgaRz {
+    box-shadow: 0 0 0 2px #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-basis: 20px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+
+.DepositFreeSpinCheckbox_checkbox_wgaRz.DepositFreeSpinCheckbox_checked_vxMj5 {
+    background-image: linear-gradient(88.93deg, #31bc69 1.83%, #089e4e 98.17%)
+}
+
+.DepositFreeSpinCheckbox_checkbox_wgaRz.DepositFreeSpinCheckbox_unchecked_srNSV {
+    background-color: #ffffff26
+}
+
+.DepositFreeSpinCheckbox_checkboxText_an5Gr {
+    font-size: 10px;
+    line-height: 12px;
+    color: #fff;
+    margin-left: 10px
+}
+
+.PromoBannerIPL_root_JJDue {
+    background: radial-gradient(974.56% 192.67% at 0% 0%, #096DFF 0%, #DC3169 73.73%, #F27327 100%);
+    border-radius: 10px;
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: .12px;
+    line-height: 14px;
+    min-height: 40px;
+    padding: 6px 0 6px 12px;
+    position: relative;
+    width: auto
+}
+
+.PromoBannerIPL_text_Zkf5q {
+    margin-right: 35%
+}
+
+.PromoBannerIPL_picture_shfNX {
+    bottom: 0;
+    height: 47px;
+    position: absolute;
+    right: 0;
+    width: 103px
+}
+
+.DepositFreeSpinTimer_timer_x1Tg2 {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    height: 22px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden
+}
+
+.DepositFreeSpinTimer_timerBacking_luQOe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90.62deg, #9739be 0%, #cf228a 100%)
+}
+
+.DepositFreeSpinTimer_backingFilter_yVgJs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff38
+}
+
+.DepositFreeSpinTimer_timerBorder_xbMw5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(128.35deg, rgba(255, 255, 255, .37) 24.67%, rgba(255, 255, 255, 0) 50.86%)
+}
+
+.DepositFreeSpinTimer_timerContent_E8rz4 {
+    position: relative;
+    inset: 1px;
+    height: calc(100% - 2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90.62deg, #9739be 0%, #cf228a 100%);
+    border-top-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    padding-right: 2px;
+    padding-left: 2px;
+    overflow: hidden
+}
+
+.DepositFreeSpinTimer_timerFilter_E6qIa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff38
+}
+
+.DepositFreeSpinTimer_timerText_JF_ir {
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    font-variant-numeric: tabular-nums
+}
+
+.QrCodeDepositInstructions_root_dDYMq {
+    display: flex;
+    flex-direction: column;
+    min-height: var(--calculated-card-height)
+}
+
+.QrCodeDepositInstructions_subtitle_epGHG {
+    color: #070c19;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 16px;
+    max-width: 230px
+}
+
+.QrCodeDepositInstructions_islandContainer_zIn3F {
+    background-color: #97aee133;
+    border-radius: 10px;
+    padding: 15px
+}
+
+.QrCodeDepositInstructions_contentWrapper_dGwla {
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 110px auto;
+    padding-right: 15px
+}
+
+.QrCodeDepositInstructions_qrCode_DeeMh {
+    box-sizing: border-box;
+    height: 110px;
+    padding: 10px
+}
+
+.QrCodeDepositInstructions_instructions_GFyHD {
+    color: #070c1980;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.QrCodeDepositInstructions_downloadIcon_LwnFV {
+    margin-right: 8px
+}
+
+.QrCodeDepositInstructions_downloadButton_NQOpD {
+    align-items: center;
+    border: 2px solid rgba(111, 118, 126, .64);
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 15px 0;
+    width: 100%
+}
+
+.QrCodeDepositInstructions_downloadButton_NQOpD span {
+    color: #1a1d1f
+}
+
+.QrCodeDepositInstructions_buttons_GslcD {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 40px 1fr;
+    margin-top: auto
+}
+
+.QrCodeDepositInstructions_button_wu9Wb {
+    background-color: #97aee133;
+    border-radius: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.QrCodeDepositInstructions_disableBoxShadow_YmnUb {
+    box-shadow: none;
+    text-shadow: none
+}
+
+.QrCodeDepositInstructions_isMobile_NceG7 .QrCodeDepositInstructions_contentWrapper_dGwla {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0
+}
+
+.QrCodeDepositInstructions_isMobile_NceG7 .QrCodeDepositInstructions_qrCode_DeeMh {
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 155px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 155px
+}
+
+.QrCodeDepositInstructions_isMobile_NceG7 .QrCodeDepositInstructions_buttons_GslcD {
+    margin-top: auto
+}
+
+.DepositBonusInstruction_root_VkuRj {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    background-color: #090f1fcc
+}
+
+.DepositBonusInstruction_root_VkuRj.DepositBonusInstruction_mobile_XDTQh {
+    background-color: #090f1e;
+    justify-content: flex-start;
+    flex-direction: column
+}
+
+.DepositBonusInstruction_logoWrapper_BarUO {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 25px
+}
+
+.DepositBonusInstruction_logo_Ols2h {
+    height: 25px;
+    min-width: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 34px
+}
+
+.DepositBonusInstruction_logo_Ols2h :deep(img) {
+    height: 45px
+}
+
+.DepositBonusInstruction_content_pZQ68 {
+    display: grid;
+    background-color: #fff;
+    width: 390px;
+    height: 415px;
+    border-radius: 16px
+}
+
+.DepositBonusInstruction_mobile_XDTQh .DepositBonusInstruction_content_pZQ68 {
+    height: calc(100% - 232px);
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column
+}
+
+.DepositBonusInstruction_header_dy8cd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 15px;
+    border-bottom: 1px solid #edf0f7
+}
+
+.DepositBonusInstruction_title_f29DA {
+    color: #090f1e;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -.23px
+}
+
+.DepositBonusInstruction_close_sOkun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background-color: #edf0f7;
+    cursor: pointer
+}
+
+.DepositBonusInstruction_rulesWrapper__6FI1 {
+    padding: 15px 5px 20px 20px;
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: #090f1e;
+    overflow: auto
+}
+
+.DepositBonusInstruction_mobile_XDTQh .DepositBonusInstruction_rulesWrapper__6FI1 {
+    flex: 1
+}
+
+.DepositBonusInstruction_rulesText_HxqV_ {
+    overflow: auto;
+    height: 100%;
+    padding-right: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #edf0f7 #fff;
+    white-space: pre-wrap
+}
+
+.DepositBonusInstruction_rulesText_HxqV_::-webkit-scrollbar {
+    width: 5px
+}
+
+.DepositBonusInstruction_rulesText_HxqV_::-webkit-scrollbar-thumb {
+    background-color: #edf0f7;
+    border-radius: 23px
+}
+
+.DepositBonusInstruction_rulesTitle_JruqG {
+    margin: 15px 0 10px
+}
+
+.DepositMerchantIndiaImageUpload_root_TpNrn {
+    background-color: #ecf5ff;
+    border: 1px dashed #409EFF;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: -apple-system, SF Pro Display, SF Pro Text, sans-serif;
+    padding: 12px;
+    width: 100%
+}
+
+.DepositMerchantIndiaImageUpload_title_Qvd_q {
+    align-items: center;
+    color: #070c19;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: space-between;
+    line-height: 16px
+}
+
+.DepositMerchantIndiaImageUpload_titleIcon_sF5dS {
+    flex-shrink: 0;
+    height: 25px;
+    width: 21px
+}
+
+.DepositMerchantIndiaImageUpload_titleText_cSlNr {
+    flex-grow: 1;
+    text-align: center
+}
+
+.DepositMerchantIndiaImageUpload_fileInput_Bl6vJ {
+    display: none
+}
+
+.DepositMerchantIndiaImageUpload_fileUpload_z18Jj {
+    align-items: center;
+    background-color: #fff;
+    border: 1px dashed #DCDFE6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    min-height: 76px;
+    padding: 10px 13px;
+    width: 100%
+}
+
+.DepositMerchantIndiaImageUpload_uploadIcon_lxdeG {
+    height: 18px
+}
+
+.DepositMerchantIndiaImageUpload_uploadText_bnkX0 {
+    color: #606266;
+    font-size: 12px;
+    line-height: 22px
+}
+
+.DepositMerchantIndiaImageUpload_receipt_XOBid {
+    align-items: center;
+    align-self: flex-start;
+    background-color: #f5f7fa;
+    color: #409eff;
+    display: flex;
+    font-size: 12px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 4px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%
+}
+
+.DepositMerchantIndiaImageUpload_fileIcon_PLbAL {
+    color: #f5f7fa
+}
+
+.DepositMerchantIndiaImageUpload_fileName_q1ASV {
+    flex-grow: 1;
+    overflow: hidden;
+    padding-left: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.DepositMerchantIndiaImageUpload_fileRules_ERGBT {
+    color: #909399;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    line-height: 18px;
+    margin-top: 3px
+}
+
+.DepositMerchantIndiaImageUpload_errorMessage_yAXM_ {
+    align-self: flex-start;
+    color: #e65973;
+    font-size: 12px;
+    margin-top: 5px
+}
+
+.DepositFreeSpin_wrapper_TYLay {
+    padding: 0 20px;
+    margin-bottom: 15px
+}
+
+.DepositFreeSpin_wrapper_TYLay.DepositFreeSpin_noPadding_iLZd8 {
+    padding: 0
+}
+
+.DepositFreeSpin_container_rHFcj {
+    position: relative
+}
+
+.DepositFreeSpin_border_gp_eP {
+    position: absolute;
+    inset: -4px;
+    background-image: linear-gradient(88.93deg, #31bc69 1.83%, #089e4e 98.17%);
+    border-radius: 14px
+}
+
+.DepositFreeSpin_content_gR0Qz {
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(90.62deg, #4e4aff 4.05%, #cf228a 93.6%);
+    position: relative;
+    box-shadow: 0 0 0 2px #ecf0f8
+}
+
+.DepositFreeSpin_mobile_rEDtx .DepositFreeSpin_content_gR0Qz {
+    box-shadow: 0 0 0 2px #fff
+}
+
+.DepositFreeSpin_amountLine_YVj__ {
+    padding: 10px 10px 0
+}
+
+.DepositFreeSpin_text_CyVOL {
+    font-size: 10px;
+    line-height: 12px;
+    color: #fffc;
+    max-width: 145px
+}
+
+.DepositFreeSpin_promoText_dV77P {
+    margin-bottom: 4px;
+    max-width: 200px
+}
+
+.DepositFreeSpin_subtextWrapper_R_75A {
+    margin-top: 2px;
+    display: flex;
+    align-items: center
+}
+
+.DepositFreeSpin_subtext_j6kUJ {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff
+}
+
+.DepositFreeSpin_question_k_YSi {
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+
+.DepositFreeSpin_questionIcon_sHP2Y {
+    width: 17px;
+    height: 17px
+}
+
+.DepositFreeSpin_bannerImage_GsvRS {
+    position: absolute;
+    width: 120px;
+    height: 84px;
+    top: -8px;
+    right: -4px
+}
+
+.DepositFreeSpin_mobile_rEDtx .DepositFreeSpin_bannerImage_GsvRS {
+    width: 122px;
+    height: 96px;
+    top: auto;
+    bottom: 0;
+    right: 0
+}
+
+.DepositFreeSpin_timerLine_LMUtZ {
+    display: grid;
+    grid-template-columns: auto max-content;
+    align-items: end;
+    margin-top: 15px
+}
